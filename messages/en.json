@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "title": "ADDPOSTS — Post everywhere. Once.",
+    "description": "Post content to multiple social media platforms at the same time, all in one place. Easy and affordable cross-posting."
+  },
+  "nav": {
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "features": "Features",
+    "platforms": "Platforms",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "tools": "Tools",
+    "api": "API",
+    "billing": "Billing",
+    "login": "Log in",
+    "tryFree": "Try free →"
+  },
+  "hero": {
+    "headline": "Post to all your social accounts from",
+    "headlineAccent": "one dashboard",
+    "sub": "easy to use, fairly priced, with real human support.",
+    "cta": "Try it for free →",
+    "aiPills": {
+      "agent": "Connect any AI agent",
+      "mcp": "Use from Claude, ChatGPT via MCP",
+      "openclaw": "Connect your OpenClaw agent"
+    },
+    "socialProof": "Used by <strong>50+</strong> happy customers",
+    "videoPlaceholder": "Demo video (coming soon)"
+  },
+  "waitlist": {
+    "title": "Join the",
+    "titleAccent": "waitlist",
+    "description": "Be the first to know when we launch. We'll send you an email when we're ready.",
+    "emailPlaceholder": "Enter your email",
+    "cta": "Join the waitlist →",
+    "submitting": "Joining...",
+    "successTitle": "You're on the list!",
+    "successDescription": "Thanks for signing up. We'll email you when we launch.",
+    "errors": {
+      "invalid_email": "Please enter a valid email address.",
+      "server_error": "Something went wrong. Please try again."
+    }
+  },
+  "socialProofBar": {
+    "label": "FEATURED ON",
+    "publications": {
+      "starterStory": "Starter Story",
+      "tinyLaunch": "TinyLaunch",
+      "productHunt": "Product Hunt",
+      "twitter": "X"
+    }
+  },
+  "crossPosting": {
+    "eyebrow": "CROSS-POSTING",
+    "headline": "Post to all platforms",
+    "headlineAccent": "instantly",
+    "body": "Publish everywhere in 30 seconds, not 30 minutes. Manage all your personal and brand accounts without switching apps. Connect your social media accounts and publish your content across all platforms with a single click — no learning curve required.",
+    "ctaPrimary": "Start posting →",
+    "ctaSecondary": "View platforms"
+  },
+  "scheduling": {
+    "eyebrow": "SCHEDULING",
+    "headline": "Schedule posts",
+    "headlineAccent": "effortlessly",
+    "body": "Plan your content strategy ahead of time. Schedule posts across all platforms. Customize your posts perfectly per platform. Queue up your posts and let ADDPOSTS handle the rest.",
+    "ctaPrimary": "Start scheduling →",
+    "ctaSecondary": "View demo",
+    "mockup": {
+      "title": "Review & Publish",
+      "caption": "Caption",
+      "captionValue": "wow!",
+      "publishingTo": "Publishing to",
+      "schedulePost": "Schedule post",
+      "scheduling": "Scheduling...",
+      "modalTitle": "Scheduling Post",
+      "modalNote": "This may take a minute. Please don't close the page."
+    }
+  },
+  "contentManagement": {
+    "eyebrow": "CONTENT MANAGEMENT",
+    "headline": "Manage content",
+    "headlineAccent": "efficiently",
+    "body": "View all your scheduled and published posts in one place. Track what's been posted, edit upcoming posts, and stay on top of your content strategy.",
+    "ctaPrimary": "Get started →",
+    "ctaSecondary": "See pricing",
+    "mockup": {
+      "title": "Posts",
+      "toast": "Scheduled post updated successfully"
+    }
+  },
+  "contentStudio": {
+    "eyebrow": "CONTENT STUDIO",
+    "headline": "Create videos",
+    "headlineAccent": "easily",
+    "body": "Proven templates to quickly create videos for your brand. Basic drag-and-drop editor to customize for your needs.",
+    "ctaPrimary": "Try studio →",
+    "ctaSecondary": "View examples",
+    "mockup": {
+      "title": "Content Studio",
+      "featuredBadge": "NEW · AI-Powered",
+      "featuredTitle": "AI UGC Video Creator",
+      "featuredDesc": "Create authentic UGC-style videos in seconds using our AI-powered templates.",
+      "featuredCta": "Try AI UGC →",
+      "templates": {
+        "grid": "2×2 Grid Video",
+        "fade": "Single Fade-In Video",
+        "ugc": "AI UGC Creator"
+      },
+      "trending": "Trending",
+      "useTemplate": "Use Template"
+    }
+  },
+  "aiCopywriting": {
+    "eyebrow": "AI COPYWRITING",
+    "headline": "Platform-native copy",
+    "headlineAccent": "in one click",
+    "body": "Describe your video in a few words. Our AI writes captions tuned for each platform's search and discovery — or one universal copy when you want consistency everywhere.",
+    "ctaPrimary": "Try AI copy →",
+    "ctaSecondary": "See examples",
+    "mockup": {
+      "windowTitle": "AI Copy Studio",
+      "title": "Generate platform copy",
+      "subtitle": "One summary in, SEO-ready captions out.",
+      "summaryLabel": "Video summary",
+      "summaryValue": "5 morning habits that doubled my productivity — quick tips for busy creators who want to post consistently without burning out.",
+      "modeLabel": "Tailored per platform",
+      "modePerPlatform": "Unique copy optimized for each platform's SEO",
+      "modeUniversal": "Same message, adapted for all platforms",
+      "generate": "Generate with AI",
+      "generating": "Writing platform copy…",
+      "emptyState": "Hit generate to preview AI-written captions",
+      "seoOptimized": "SEO optimized",
+      "seoScore": "Discovery score",
+      "appliedToAll": "Applied to all 6 platforms",
+      "universalTitle": "Universal copy",
+      "universalCopy": "5 morning habits that changed how I create content. Simple routines that help you stay consistent, avoid burnout, and show up every day — even when you're busy. Save this for your next reset.",
+      "universalHashtags": "#productivity #contentcreator #morningroutine #creatortips",
+      "rankingPreview": "Platform SEO scores",
+      "platforms": {
+        "instagram": {
+          "copy": "5 morning habits that doubled my output as a creator ☀️ Stop scrolling, start creating — these simple routines helped me post consistently without burning out. Which one are you trying first?",
+          "hashtags": "#contentcreator #morningroutine #productivitytips #creatorgrowth"
+        },
+        "tiktok": {
+          "copy": "POV: you finally fixed your morning routine and your content schedule actually works 😭 5 habits I wish I knew sooner as a creator. Part 1 — save this before you forget.",
+          "hashtags": "#creatortok #morningroutine #productivityhack #tiktoktips"
+        },
+        "youtube": {
+          "copy": "5 Morning Habits That Doubled My Productivity as a Content Creator | If you struggle to stay consistent, these simple routines helped me post daily without burnout. Timestamps in comments.",
+          "hashtags": "#YouTubeShorts #productivity #contentcreator #morningroutine"
+        },
+        "linkedin": {
+          "copy": "I used to lose hours every morning before creating anything meaningful. These 5 habits changed that. If you're building in public or growing a personal brand, consistency beats perfection — here's the framework I use daily.",
+          "hashtags": "#PersonalBranding #Productivity #ContentStrategy #CreatorEconomy"
+        }
+      }
+    }
+  },
+  "stats": {
+    "platforms": { "value": "6", "label": "PLATFORMS" },
+    "posts": { "value": "500,000+", "label": "POSTS PUBLISHED" },
+    "time": { "value": "2 min", "label": "AVG TIME TO POST" },
+    "cta": "Try it for free →",
+    "lovedBy": "ADDPOSTS is loved by",
+    "lovedByAccent": "50+ users.",
+    "subtitle": "Here's what they are saying."
+  },
+  "testimonials": {
+    "items": [
+      {
+        "text": "ADDPOSTS saves me over an hour every day. I post to 6 platforms with one click. Incredible.",
+        "name": "Sarah Chen",
+        "handle": "@sarahcreates",
+        "role": "Content creator"
+      },
+      {
+        "text": "I tried Buffer and Hootsuite. ADDPOSTS is simpler, cheaper, and support responds in minutes.",
+        "name": "Mike Johnson",
+        "handle": "@mikeagency",
+        "role": "Agency owner"
+      },
+      {
+        "text": "As a freelancer, I need something lightweight. ADDPOSTS is exactly that — no features I'll never use.",
+        "name": "Emily Davis",
+        "handle": "@emilylopez",
+        "role": "Marketing freelancer"
+      },
+      {
+        "text": "We schedule the entire month's content in one afternoon. The team loves the simplicity.",
+        "name": "James Wilson",
+        "handle": "@jamesstartup",
+        "role": "Startup founder"
+      },
+      {
+        "text": "The MCP integration is a game-changer. I post directly from Claude without opening another app.",
+        "name": "Lisa Park",
+        "handle": "@lisatech",
+        "role": "Developer"
+      },
+      {
+        "text": "Went from manually posting on 4 networks to doing it all from ADDPOSTS. My engagement metrics went up.",
+        "name": "Tom Brown",
+        "handle": "@tombrand",
+        "role": "Community manager"
+      },
+      {
+        "text": "I manage social for three clients. ADDPOSTS lets me switch accounts and schedule everything from one dashboard.",
+        "name": "Rachel Kim",
+        "handle": "@rachelsocial",
+        "role": "Social media manager"
+      },
+      {
+        "text": "Setup took five minutes. No onboarding calls, no confusing settings. Just connect and start posting.",
+        "name": "David Thompson",
+        "handle": "@davidshops",
+        "role": "E-commerce founder"
+      },
+      {
+        "text": "I promote every episode across five platforms now. Used to take 45 minutes — ADDPOSTS does it in under five.",
+        "name": "Nina Patel",
+        "handle": "@ninapodcast",
+        "role": "Podcast host"
+      }
+    ]
+  },
+  "founder": {
+    "greeting": "heyo! it's",
+    "name": "Nicolás",
+    "subtitle": "(the person who built ADDPOSTS)",
+    "story": [
+      "Last year I was spending <strong>over 1 hour every single day</strong> manually posting to all my social media accounts.",
+      "I tried all the popular tools. They were <strong>way too expensive ($75–$200/month)</strong> and <strong>way too damn complex</strong> for what I needed.",
+      "So I built my own tool — <strong>lightweight and simple</strong>. Just what I needed to post everywhere without the hassle.",
+      "I shared the tool with friends, then with thousands of others. Today ADDPOSTS is used by <strong>over 50 people</strong> who save hours every week.",
+      "If you're tired of complicated, expensive tools, <strong>ADDPOSTS is for you</strong>."
+    ],
+    "cta": "Try it for free"
+  },
+  "platforms": {
+    "title": "Supported Platforms",
+    "subtitle": "These are all the platforms you can post to.",
+    "names": {
+      "x": "Twitter/X",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "bluesky": "Bluesky",
+      "threads": "Threads",
+      "pinterest": "Pinterest",
+      "googleBusiness": "Google Business"
+    },
+    "moreToCome": "More to come",
+    "cta": "View all platforms"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Get more views, with less effort.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "saveBadge": "Save up to 17%",
+    "freeTrial": "Free trial",
+    "guarantee": "7-day money-back guarantee",
+    "perMonth": "/month",
+    "plans": {
+      "creator": {
+        "name": "Minimum",
+        "badge": "Most popular",
+        "description": "Best for growing creators",
+        "price": "$29",
+        "cta": "Start free trial",
+        "features": [
+          "15 connected social accounts",
+          "Unlimited posts",
+          "Post scheduling",
+          "Email support",
+          "AI integration"
+        ]
+      },
+      "growth": {
+        "name": "Essential",
+        "description": "For small teams",
+        "price": "$49",
+        "cta": "Get started →",
+        "features": [
+          "50 connected social accounts",
+          "Unlimited posts",
+          "Advanced scheduling",
+          "Priority support",
+          "Basic analytics"
+        ]
+      },
+      "pro": {
+        "name": "Business",
+        "badge": "Best deal",
+        "description": "For agencies and businesses",
+        "price": "$99",
+        "cta": "Get started →",
+        "features": [
+          "Unlimited social accounts",
+          "Unlimited posts",
+          "Advanced scheduling",
+          "Dedicated support",
+          "Analytics"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Why switch from Buffer or Hootsuite?",
+        "a": "ADDPOSTS is simpler, more affordable, and built for creators and small teams. No features you'll never use or enterprise pricing. You get cross-posting and scheduling in one clean dashboard for a fraction of the cost."
+      },
+      {
+        "q": "What social platforms do you support?",
+        "a": "We support Twitter/X, Instagram, LinkedIn, Facebook, TikTok, YouTube, Bluesky, Threads, Pinterest, and Google Business. We add new platforms regularly based on user demand."
+      },
+      {
+        "q": "How many social accounts can I connect?",
+        "a": "It depends on your plan: Minimum includes 15 accounts, Essential 50 accounts, and Business unlimited accounts. A social account is an individual connection to a platform (e.g. your personal Instagram)."
+      },
+      {
+        "q": "What is a social account?",
+        "a": "A social account is an individual connection to a platform. For example, connecting your personal Instagram counts as 1 social account. Connecting your Instagram and brand account counts as 2 social accounts."
+      },
+      {
+        "q": "Can I connect 2 accounts to the same platform?",
+        "a": "Yes, you can connect multiple accounts on the same platform. Each connection counts as a separate social account toward your plan limits."
+      },
+      {
+        "q": "How many posts can I make and schedule per month?",
+        "a": "All posts and scheduling are unlimited on every plan. Post and schedule as much as you need with no monthly caps."
+      },
+      {
+        "q": "What types of content can I post?",
+        "a": "You can post text, images, videos, and carousels depending on what each platform supports. ADDPOSTS automatically optimizes the format for each network."
+      },
+      {
+        "q": "Will my posts get less reach using a scheduler?",
+        "a": "No. Posts scheduled with ADDPOSTS get the same reach as manually posted content. We use official APIs from each platform, not unauthorized automation."
+      },
+      {
+        "q": "Can I cancel anytime?",
+        "a": "Yes, you can cancel your subscription anytime from your billing dashboard. No long-term contracts or cancellation penalties."
+      },
+      {
+        "q": "Can I get a refund?",
+        "a": "We offer a 7-day money-back guarantee. If ADDPOSTS isn't for you, contact us within the first 7 days for a full refund."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headline": "Ready to get",
+    "headlineAccent": "started",
+    "headlineEnd": "?",
+    "body": "Join thousands of busy founders who save hours every week with ADDPOSTS. Start your free trial today.",
+    "cta": "Try for free"
+  },
+  "footer": {
+    "tagline": "Post everywhere. Once.",
+    "copyright": "Copyright © 2026 — All rights reserved",
+    "columns": {
+      "links": {
+        "title": "LINKS",
+        "items": [
+          "Support",
+          "Pricing",
+          "Blog",
+          "Affiliates",
+          "Billing",
+          "AI Agents",
+          "MCP",
+          "Docs"
+        ]
+      },
+      "platforms": {
+        "title": "PLATFORMS",
+        "items": [
+          "Instagram scheduler",
+          "LinkedIn scheduler",
+          "TikTok scheduler",
+          "YouTube scheduler",
+          "Facebook scheduler",
+          "Threads scheduler"
+        ]
+      },
+      "tools": {
+        "title": "FREE TOOLS",
+        "items": [
+          "Growth Guide",
+          "Caption Generator",
+          "Hashtag Tool",
+          "Username Checker",
+          "Timeline Blocker"
+        ]
+      },
+      "legal": {
+        "title": "LEGAL",
+        "terms": "Terms of service",
+        "privacy": "Privacy policy"
+      }
+    }
+  },
+  "termsOfService": {
+    "metadata": {
+      "title": "Terms of Service — ADDPOSTS",
+      "description": "Terms and conditions governing your use of ADDPOSTS, operated by ADDSTRATEGIC LLC."
+    },
+    "title": "Terms and Conditions for ADDPOSTS",
+    "lastUpdated": "Last Updated: June 22, 2026",
+    "intro": "Welcome to ADDPOSTS! These Terms of Service (\"Terms\") govern your use of the ADDPOSTS website at https://addpostsai.com (\"Website\") and the services provided by ADDSTRATEGIC LLC (\"ADDPOSTS,\" \"we,\" \"us,\" or \"our\"), a limited liability company registered in the United States. By using our Website and services, you agree to these Terms.",
+    "sections": [
+      {
+        "title": "1. Description of ADDPOSTS",
+        "paragraphs": [
+          "ADDPOSTS is a social media management tool that allows users to cross-post, schedule, and publish content to multiple social media platforms from one place. Supported platforms include Twitter/X, Instagram, LinkedIn, Facebook, TikTok, YouTube, Bluesky, Threads, Pinterest, and Google Business."
+        ]
+      },
+      {
+        "title": "2. YouTube Terms of Service",
+        "paragraphs": [
+          "By using ADDPOSTS to interact with YouTube services, you also agree to be bound by the YouTube Terms of Service (https://www.youtube.com/t/terms). This includes any use of the YouTube API services through our platform."
+        ]
+      },
+      {
+        "title": "3. User Data and Privacy",
+        "paragraphs": [
+          "We collect and store user data as necessary to provide our services. On this Website, we currently collect your email address when you join our waitlist. When you use the full ADDPOSTS application, we may also collect your name, payment information, and social media authentication access tokens. For details on how we handle your data, please refer to our Privacy Policy at https://addpostsai.com/privacy-policy."
+        ]
+      },
+      {
+        "title": "4. Non-Personal Data Collection",
+        "paragraphs": [
+          "We use web cookies and similar technologies to collect non-personal data for the purpose of improving our services and user experience."
+        ]
+      },
+      {
+        "title": "5. Ownership and Usage Rights",
+        "paragraphs": [
+          "When you subscribe to ADDPOSTS, you can sign in to your social media accounts and authorize access to your data so we can post on your behalf. You retain ownership of your content, but grant us the necessary rights to publish, schedule, and manage posts on the platforms you connect to ADDPOSTS."
+        ]
+      },
+      {
+        "title": "6. Refund Policy",
+        "paragraphs": [
+          "We offer a 7-day money-back guarantee on paid subscriptions. If ADDPOSTS is not right for you, contact us within the first 7 days of your purchase for a full refund at addpostsai@gmail.com."
+        ]
+      },
+      {
+        "title": "7. Children's Privacy",
+        "paragraphs": [
+          "ADDPOSTS is not intended for use by children under 13, and we do not knowingly collect any data from children."
+        ]
+      },
+      {
+        "title": "8. Updates to the Terms",
+        "paragraphs": [
+          "We may update these Terms from time to time. We will notify registered users of material changes via email or through the application."
+        ]
+      },
+      {
+        "title": "9. Governing Law",
+        "paragraphs": [
+          "These Terms are governed by the laws of the United States. Any disputes arising from these Terms or your use of ADDPOSTS shall be subject to the exclusive jurisdiction of the courts located in the United States, where ADDSTRATEGIC LLC is registered."
+        ]
+      },
+      {
+        "title": "10. Contact Information",
+        "paragraphs": [
+          "ADDPOSTS is operated by ADDSTRATEGIC LLC. For any questions or concerns regarding these Terms of Service, please contact us at addpostsai@gmail.com."
+        ]
+      }
+    ],
+    "closing": "Thank you for using ADDPOSTS!"
+  },
+  "privacyPolicy": {
+    "metadata": {
+      "title": "Privacy Policy — ADDPOSTS",
+      "description": "How ADDPOSTS, operated by ADDSTRATEGIC LLC, collects, uses, and protects your personal information."
+    },
+    "title": "Privacy Policy for ADDPOSTS",
+    "lastUpdated": "Last Updated: June 22, 2026",
+    "intro": "Thank you for using ADDPOSTS (\"we,\" \"us,\" or \"our\"), a product operated by ADDSTRATEGIC LLC, a limited liability company registered in the United States. This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://addpostsai.com (the \"Website\") and our services.",
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "paragraphs": [
+          "1.1 Personal Data",
+          "We collect the following personal information depending on how you interact with ADDPOSTS:"
+        ],
+        "list": [
+          "Email: We collect your email address when you join our waitlist on this Website, and when you create an account, to communicate with you about your account, product updates, and support.",
+          "Name: We collect your name when you create an account to personalize your experience and communicate with you effectively.",
+          "Payment Information: When you subscribe to a paid plan, payment details are collected and processed securely by our payment provider. We do not store full payment card numbers on our servers.",
+          "Social Media Authentication Access Tokens: When you connect social accounts to ADDPOSTS, we collect OAuth access tokens and related credentials to enable cross-posting and scheduling to your connected platforms."
+        ]
+      },
+      {
+        "title": "1.2 Non-Personal Data",
+        "paragraphs": [
+          "We use web cookies and similar technologies to collect non-personal information such as your IP address, browser type, device information, and browsing patterns. This information helps us enhance your browsing experience, analyze trends, and improve our services."
+        ]
+      },
+      {
+        "title": "2. Purpose of Data Collection",
+        "paragraphs": [
+          "We collect and use your personal data to operate ADDPOSTS, process subscriptions, enable cross-posting and scheduling, send confirmations and product updates, provide customer support, and keep you informed about your account and posts."
+        ]
+      },
+      {
+        "title": "3. YouTube API Services",
+        "paragraphs": [
+          "ADDPOSTS uses YouTube API Services to enable cross-posting and scheduling to YouTube. By using our service to interact with YouTube, you are also subject to the YouTube Terms of Service (https://www.youtube.com/t/terms)."
+        ]
+      },
+      {
+        "title": "4. Google Privacy Policy",
+        "paragraphs": [
+          "As we use YouTube API Services, your data may also be subject to Google's Privacy Policy. For more information on how Google collects and processes data, please refer to the Google Privacy Policy at https://www.google.com/policies/privacy."
+        ]
+      },
+      {
+        "title": "5. Data Sharing",
+        "paragraphs": [
+          "We do not sell your personal data. We share your information only as necessary to provide our services. This may include sharing data with payment processors for billing, email service providers for communications, and the social media platforms you choose to connect, including YouTube through the YouTube API Services."
+        ]
+      },
+      {
+        "title": "6. Children's Privacy",
+        "paragraphs": [
+          "ADDPOSTS is not intended for children under 13, and we do not knowingly collect any data from children."
+        ]
+      },
+      {
+        "title": "7. Updates to the Privacy Policy",
+        "paragraphs": [
+          "We may update this Privacy Policy from time to time. We will notify registered users of material changes via email or through the application."
+        ]
+      },
+      {
+        "title": "8. Contact Information",
+        "paragraphs": [
+          "ADDPOSTS is operated by ADDSTRATEGIC LLC. If you have any questions, concerns, or requests related to this Privacy Policy, contact us at addpostsai@gmail.com."
+        ]
+      },
+      {
+        "title": "9. Data Protection Mechanisms",
+        "paragraphs": [
+          "We take the protection of your sensitive data seriously and have implemented the following security measures:",
+          "a) Encryption: Social media OAuth access tokens and other sensitive credentials are encrypted using industry-standard encryption protocols both in transit and at rest.",
+          "While we implement these security measures to protect your sensitive information, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure. We strive to use commercially acceptable means to protect your personal information, but we cannot guarantee its absolute security."
+        ]
+      }
+    ],
+    "closing": "By using ADDPOSTS, you consent to the terms of this Privacy Policy."
+  },
+  "localeSwitcher": {
+    "es": "ES",
+    "en": "EN"
+  }
+}

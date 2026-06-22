@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "title": "ADDPOSTS — Publica en todas partes. Una vez.",
+    "description": "Publica contenido en múltiples redes sociales al mismo tiempo, todo en un solo lugar. Cross-posting fácil y asequible."
+  },
+  "nav": {
+    "pricing": "Precios",
+    "reviews": "Reseñas",
+    "features": "Funciones",
+    "platforms": "Plataformas",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "tools": "Herramientas",
+    "api": "API",
+    "billing": "Facturación",
+    "login": "Iniciar sesión",
+    "tryFree": "Probar gratis →"
+  },
+  "hero": {
+    "headline": "Publica en todas tus redes desde",
+    "headlineAccent": "un solo panel",
+    "sub": "fácil de usar, precio justo, con soporte humano real.",
+    "cta": "Pruébalo gratis →",
+    "aiPills": {
+      "agent": "Conecta cualquier agente IA",
+      "mcp": "Úsalo desde Claude, ChatGPT vía MCP",
+      "openclaw": "Conecta tu agente OpenClaw"
+    },
+    "socialProof": "Usado por <strong>50+</strong> clientes felices",
+    "videoPlaceholder": "Video demo (próximamente)"
+  },
+  "waitlist": {
+    "title": "Únete a la",
+    "titleAccent": "lista de espera",
+    "description": "Sé el primero en saber cuando lanzamos. Te enviaremos un email cuando estemos listos.",
+    "emailPlaceholder": "Ingresa tu correo",
+    "cta": "Únete",
+    "submitting": "Uniéndote...",
+    "successTitle": "¡Ya estás en la lista!",
+    "successDescription": "Gracias por registrarte. Te enviaremos un email cuando lancemos.",
+    "errors": {
+      "invalid_email": "Por favor ingresa un correo válido.",
+      "server_error": "Algo salió mal. Por favor intenta de nuevo."
+    }
+  },
+  "socialProofBar": {
+    "label": "DESTACADO EN",
+    "publications": {
+      "starterStory": "Starter Story",
+      "tinyLaunch": "TinyLaunch",
+      "productHunt": "Product Hunt",
+      "twitter": "X"
+    }
+  },
+  "crossPosting": {
+    "eyebrow": "CROSS-POSTING",
+    "headline": "Publica en todas las plataformas",
+    "headlineAccent": "al instante",
+    "body": "Publica en todas partes en 30 segundos, no en 30 minutos. Gestiona todas tus cuentas personales y de marca sin cambiar de app. Conecta tus redes y publica tu contenido en todas las plataformas con un solo clic — sin curva de aprendizaje.",
+    "ctaPrimary": "Empezar a publicar →",
+    "ctaSecondary": "Ver plataformas"
+  },
+  "scheduling": {
+    "eyebrow": "PROGRAMACIÓN",
+    "headline": "Programa publicaciones",
+    "headlineAccent": "sin esfuerzo",
+    "body": "Planifica tu estrategia de contenido con anticipación. Programa publicaciones en todas las plataformas. Personaliza tus posts perfectamente por plataforma. Encola tus publicaciones y deja que ADDPOSTS se encargue del resto.",
+    "ctaPrimary": "Empezar a programar →",
+    "ctaSecondary": "Ver demo",
+    "mockup": {
+      "title": "Revisar y publicar",
+      "caption": "Caption",
+      "captionValue": "¡wow!",
+      "publishingTo": "Publicando en",
+      "schedulePost": "Programar publicación",
+      "scheduling": "Programando...",
+      "modalTitle": "Programando publicación",
+      "modalNote": "Esto puede tardar un minuto. No cierres la página."
+    }
+  },
+  "contentManagement": {
+    "eyebrow": "GESTIÓN DE CONTENIDO",
+    "headline": "Gestiona contenido",
+    "headlineAccent": "eficientemente",
+    "body": "Ve todas tus publicaciones programadas y publicadas en un solo lugar. Rastrea lo que se ha publicado, edita las próximas publicaciones y mantente al día con tu estrategia de contenido.",
+    "ctaPrimary": "Empezar →",
+    "ctaSecondary": "Ver precios",
+    "mockup": {
+      "title": "Publicaciones",
+      "toast": "Publicación programada actualizada correctamente"
+    }
+  },
+  "contentStudio": {
+    "eyebrow": "CONTENT STUDIO",
+    "headline": "Crea videos",
+    "headlineAccent": "fácilmente",
+    "body": "Plantillas probadas para crear videos rápidamente para tu marca. Editor básico de arrastrar y soltar para personalizar según tus necesidades.",
+    "ctaPrimary": "Probar studio →",
+    "ctaSecondary": "Ver ejemplos",
+    "mockup": {
+      "title": "Content Studio",
+      "featuredBadge": "NUEVO · Con IA",
+      "featuredTitle": "Creador de Video UGC con IA",
+      "featuredDesc": "Crea videos auténticos estilo UGC en segundos usando nuestras plantillas con IA.",
+      "featuredCta": "Probar IA UGC →",
+      "templates": {
+        "grid": "Video Grid 2×2",
+        "fade": "Video Fade-In",
+        "ugc": "Creador UGC IA"
+      },
+      "trending": "Tendencia",
+      "useTemplate": "Usar plantilla"
+    }
+  },
+  "aiCopywriting": {
+    "eyebrow": "COPYWRITING CON IA",
+    "headline": "Copy nativo por plataforma",
+    "headlineAccent": "en un clic",
+    "body": "Describe tu video en pocas palabras. Nuestra IA escribe captions optimizados para la búsqueda y el descubrimiento de cada plataforma — o un copy universal cuando quieras consistencia en todas.",
+    "ctaPrimary": "Probar copy IA →",
+    "ctaSecondary": "Ver ejemplos",
+    "mockup": {
+      "windowTitle": "AI Copy Studio",
+      "title": "Generar copy por plataforma",
+      "subtitle": "Un resumen entra, captions listos para SEO salen.",
+      "summaryLabel": "Resumen del video",
+      "summaryValue": "5 hábitos matutinos que duplicaron mi productividad — consejos rápidos para creadores ocupados que quieren publicar con consistencia sin quemarse.",
+      "modeLabel": "Adaptado por plataforma",
+      "modePerPlatform": "Copy único optimizado para el SEO de cada plataforma",
+      "modeUniversal": "Mismo mensaje, adaptado para todas las plataformas",
+      "generate": "Generar con IA",
+      "generating": "Escribiendo copy por plataforma…",
+      "emptyState": "Pulsa generar para ver los captions escritos por IA",
+      "seoOptimized": "Optimizado para SEO",
+      "seoScore": "Puntuación de descubrimiento",
+      "appliedToAll": "Aplicado a las 6 plataformas",
+      "universalTitle": "Copy universal",
+      "universalCopy": "5 hábitos matutinos que cambiaron cómo creo contenido. Rutinas simples para mantener la consistencia, evitar el burnout y aparecer cada día — incluso cuando estás ocupado. Guarda esto para tu próximo reinicio.",
+      "universalHashtags": "#productividad #creadordecontenido #rutinamatutina #consejosparacreadores",
+      "rankingPreview": "Puntuaciones SEO por plataforma",
+      "platforms": {
+        "instagram": {
+          "copy": "5 hábitos matutinos que duplicaron mi producción como creador ☀️ Deja de scrollear, empieza a crear — estas rutinas simples me ayudaron a publicar con consistencia sin quemarme. ¿Cuál vas a probar primero?",
+          "hashtags": "#creadordecontenido #rutinamatutina #consejosdeproductividad #crecimientocreador"
+        },
+        "tiktok": {
+          "copy": "POV: por fin arreglaste tu rutina matutina y tu calendario de contenido funciona 😭 5 hábitos que ojalá hubiera sabido antes como creador. Parte 1 — guarda esto antes de olvidarlo.",
+          "hashtags": "#creatortok #rutinamatutina #hackdeproductividad #consejostiktok"
+        },
+        "youtube": {
+          "copy": "5 Hábitos Matutinos que Duplicaron Mi Productividad como Creador de Contenido | Si te cuesta ser consistente, estas rutinas simples me ayudaron a publicar a diario sin burnout. Timestamps en comentarios.",
+          "hashtags": "#YouTubeShorts #productividad #creadordecontenido #rutinamatutina"
+        },
+        "linkedin": {
+          "copy": "Solía perder horas cada mañana antes de crear algo con sentido. Estos 5 hábitos lo cambiaron. Si estás construyendo en público o creciendo tu marca personal, la consistencia vence a la perfección — este es el framework que uso a diario.",
+          "hashtags": "#MarcaPersonal #Productividad #EstrategiaDeContenido #EconomíaDelCreador"
+        }
+      }
+    }
+  },
+  "stats": {
+    "platforms": { "value": "6", "label": "PLATAFORMAS" },
+    "posts": { "value": "500.000+", "label": "PUBLICACIONES" },
+    "time": { "value": "2 min", "label": "TIEMPO PROMEDIO" },
+    "cta": "Pruébalo gratis →",
+    "lovedBy": "ADDPOSTS es amado por",
+    "lovedByAccent": "50+ usuarios.",
+    "subtitle": "Esto es lo que dicen."
+  },
+  "testimonials": {
+    "items": [
+      {
+        "text": "ADDPOSTS me ahorra más de una hora cada día. Publico en 6 plataformas con un solo clic. Increíble.",
+        "name": "María García",
+        "handle": "@mariacreates",
+        "role": "Creadora de contenido"
+      },
+      {
+        "text": "Probé Buffer y Hootsuite. ADDPOSTS es más simple, más barato y el soporte responde en minutos.",
+        "name": "Carlos Ruiz",
+        "handle": "@carlosagency",
+        "role": "Dueño de agencia"
+      },
+      {
+        "text": "Como freelancer, necesito algo ligero. ADDPOSTS es exactamente eso — sin funciones que nunca uso.",
+        "name": "Ana López",
+        "handle": "@analopez",
+        "role": "Freelancer de marketing"
+      },
+      {
+        "text": "Programamos todo el contenido del mes en una tarde. El equipo está encantado con la simplicidad.",
+        "name": "Diego Fernández",
+        "handle": "@diegostartup",
+        "role": "Fundador de startup"
+      },
+      {
+        "text": "La integración con MCP es un game-changer. Publico directamente desde Claude sin abrir otra app.",
+        "name": "Laura Martín",
+        "handle": "@lauratech",
+        "role": "Desarrolladora"
+      },
+      {
+        "text": "Pasé de publicar manualmente en 4 redes a hacerlo todo desde ADDPOSTS. Mis métricas de engagement subieron.",
+        "name": "Pablo Sánchez",
+        "handle": "@pablobrand",
+        "role": "Community manager"
+      },
+      {
+        "text": "Gestiono redes para tres clientes. ADDPOSTS me deja cambiar de cuenta y programar todo desde un solo panel.",
+        "name": "Raquel Kim",
+        "handle": "@raquelsocial",
+        "role": "Social media manager"
+      },
+      {
+        "text": "La configuración tomó cinco minutos. Sin llamadas de onboarding ni ajustes confusos. Conectas y empiezas a publicar.",
+        "name": "David Torres",
+        "handle": "@davidshops",
+        "role": "Fundador de e-commerce"
+      },
+      {
+        "text": "Ahora promociono cada episodio en cinco plataformas. Antes tardaba 45 minutos — con ADDPOSTS son menos de cinco.",
+        "name": "Nina Patel",
+        "handle": "@ninapodcast",
+        "role": "Podcast host"
+      }
+    ]
+  },
+  "founder": {
+    "greeting": "¡hola! soy",
+    "name": "Nicolás",
+    "subtitle": "(el que hizo ADDPOSTS)",
+    "story": [
+      "El año pasado estaba gastando <strong>más de 1 hora cada día</strong> publicando manualmente en todas mis redes sociales.",
+      "Probé todas las herramientas populares. Eran <strong>demasiado caras ($75–$200/mes)</strong> y <strong>demasiado complejas</strong> para lo que necesitaba.",
+      "Así que construí mi propia herramienta — <strong>ligera y simple</strong>. Solo lo que necesitaba para publicar en todas partes sin complicaciones.",
+      "Compartí la herramienta con amigos, luego con miles de otros. Hoy ADDPOSTS es usado por <strong>más de 50 personas</strong> que ahorran horas cada semana.",
+      "Si estás cansado de herramientas complicadas y caras, <strong>ADDPOSTS es para ti</strong>."
+    ],
+    "cta": "Probar gratis"
+  },
+  "platforms": {
+    "title": "Plataformas compatibles",
+    "subtitle": "Estas son todas las plataformas donde puedes publicar.",
+    "names": {
+      "x": "Twitter/X",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "bluesky": "Bluesky",
+      "threads": "Threads",
+      "pinterest": "Pinterest",
+      "googleBusiness": "Google Business"
+    },
+    "moreToCome": "Más próximamente",
+    "cta": "Ver todas las plataformas"
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Más vistas, con menos esfuerzo.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "saveBadge": "Ahorra hasta 17%",
+    "freeTrial": "Prueba gratis",
+    "guarantee": "Garantía de devolución de 7 días",
+    "perMonth": "/mes",
+    "plans": {
+      "creator": {
+        "name": "Minimum",
+        "badge": "Más popular",
+        "description": "Ideal para creadores en crecimiento",
+        "price": "$29",
+        "cta": "Empezar prueba gratis",
+        "features": [
+          "15 cuentas sociales conectadas",
+          "Publicaciones ilimitadas",
+          "Programación de posts",
+          "Soporte por email",
+          "Integración con IA"
+        ]
+      },
+      "growth": {
+        "name": "Essential",
+        "description": "Para equipos pequeños",
+        "price": "$49",
+        "cta": "Empezar →",
+        "features": [
+          "50 cuentas sociales conectadas",
+          "Publicaciones ilimitadas",
+          "Programación avanzada",
+          "Soporte prioritario",
+          "Analíticas"
+        ]
+      },
+      "pro": {
+        "name": "Business",
+        "badge": "Mejor oferta",
+        "description": "Para agencias y empresas",
+        "price": "$99",
+        "cta": "Empezar →",
+        "features": [
+          "Cuentas sociales ilimitadas",
+          "Publicaciones ilimitadas",
+          "Programación avanzada",
+          "Soporte dedicado",
+          "Analíticas"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Por qué cambiar de Buffer o Hootsuite?",
+        "a": "ADDPOSTS es más simple, más asequible y está diseñado para creadores y pequeños equipos. Sin funciones que nunca usarás ni precios de empresa. Obtienes cross-posting y programación en un panel limpio por una fracción del costo."
+      },
+      {
+        "q": "¿Qué plataformas sociales soportan?",
+        "a": "Soportamos Twitter/X, Instagram, LinkedIn, Facebook, TikTok, YouTube, Bluesky, Threads, Pinterest y Google Business. Añadimos nuevas plataformas regularmente según la demanda de usuarios."
+      },
+      {
+        "q": "¿Cuántas cuentas sociales puedo conectar?",
+        "a": "Depende de tu plan: Minimum incluye 15 cuentas, Essential 50 cuentas, y Business cuentas ilimitadas. Una cuenta social es una conexión individual a una plataforma (ej. tu Instagram personal)."
+      },
+      {
+        "q": "¿Qué es una cuenta social?",
+        "a": "Una cuenta social es una conexión individual a una plataforma. Por ejemplo, conectar tu Instagram personal cuenta como 1 cuenta social. Conectar tu Instagram y tu cuenta de marca cuenta como 2 cuentas sociales."
+      },
+      {
+        "q": "¿Puedo conectar 2 cuentas a la misma plataforma?",
+        "a": "Sí, puedes conectar múltiples cuentas en la misma plataforma. Cada conexión cuenta como una cuenta social separada según los límites de tu plan."
+      },
+      {
+        "q": "¿Cuántas publicaciones puedo hacer y programar al mes?",
+        "a": "Todas las publicaciones y programaciones son ilimitadas en todos los planes. Publica y programa todo lo que necesites sin límites mensuales."
+      },
+      {
+        "q": "¿Qué tipos de contenido puedo publicar?",
+        "a": "Puedes publicar texto, imágenes, videos y carruseles según lo que soporte cada plataforma. ADDPOSTS optimiza automáticamente el formato para cada red."
+      },
+      {
+        "q": "¿Mis publicaciones tendrán menos alcance usando un programador?",
+        "a": "No. Las publicaciones programadas con ADDPOSTS tienen el mismo alcance que las publicadas manualmente. Usamos las APIs oficiales de cada plataforma, no automatización no autorizada."
+      },
+      {
+        "q": "¿Puedo cancelar en cualquier momento?",
+        "a": "Sí, puedes cancelar tu suscripción en cualquier momento desde tu panel de facturación. Sin contratos a largo plazo ni penalizaciones por cancelación."
+      },
+      {
+        "q": "¿Puedo obtener un reembolso?",
+        "a": "Ofrecemos una garantía de devolución de 7 días. Si ADDPOSTS no es para ti, contáctanos dentro de los primeros 7 días para un reembolso completo."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headline": "¿Listo para",
+    "headlineAccent": "empezar",
+    "headlineEnd": "?",
+    "body": "Únete a miles de fundadores ocupados que ahorran horas cada semana con ADDPOSTS. Empieza tu prueba gratis hoy.",
+    "cta": "Probar gratis"
+  },
+  "footer": {
+    "tagline": "Publica en todas partes. Una vez.",
+    "copyright": "Copyright © 2026 — Todos los derechos reservados",
+    "columns": {
+      "links": {
+        "title": "ENLACES",
+        "items": [
+          "Soporte",
+          "Precios",
+          "Blog",
+          "Afiliados",
+          "Facturación",
+          "Agentes IA",
+          "Docs"
+        ]
+      },
+      "platforms": {
+        "title": "PLATAFORMAS",
+        "items": [
+          "Programador Instagram",
+          "Programador LinkedIn",
+          "Programador TikTok",
+          "Programador YouTube",
+          "Programador Facebook",
+          "Programador Threads"
+        ]
+      },
+      "tools": {
+        "title": "HERRAMIENTAS GRATIS",
+        "items": [
+          "Guía de crecimiento",
+          "Generador de captions",
+          "Herramienta de hashtags",
+          "Verificador de username",
+          "Bloqueador de timeline"
+        ]
+      },
+      "legal": {
+        "title": "LEGAL",
+        "terms": "Términos de servicio",
+        "privacy": "Política de privacidad"
+      }
+    }
+  },
+  "termsOfService": {
+    "metadata": {
+      "title": "Términos de Servicio — ADDPOSTS",
+      "description": "Términos y condiciones que rigen el uso de ADDPOSTS, operado por ADDSTRATEGIC LLC."
+    },
+    "title": "Términos y Condiciones de ADDPOSTS",
+    "lastUpdated": "Última actualización: 22 de junio de 2026",
+    "intro": "¡Bienvenido a ADDPOSTS! Estos Términos de Servicio (\"Términos\") rigen el uso del sitio web de ADDPOSTS en https://addpostsai.com (\"Sitio Web\") y los servicios proporcionados por ADDSTRATEGIC LLC (\"ADDPOSTS,\" \"nosotros\" o \"nuestro\"), una sociedad de responsabilidad limitada registrada en los Estados Unidos. Al usar nuestro Sitio Web y servicios, aceptas estos Términos.",
+    "sections": [
+      {
+        "title": "1. Descripción de ADDPOSTS",
+        "paragraphs": [
+          "ADDPOSTS es una herramienta de gestión de redes sociales que permite a los usuarios publicar en múltiples plataformas, programar contenido y gestionar publicaciones desde un solo lugar. Las plataformas compatibles incluyen Twitter/X, Instagram, LinkedIn, Facebook, TikTok, YouTube, Bluesky, Threads, Pinterest y Google Business."
+        ]
+      },
+      {
+        "title": "2. Términos de Servicio de YouTube",
+        "paragraphs": [
+          "Al usar ADDPOSTS para interactuar con los servicios de YouTube, también aceptas estar sujeto a los Términos de Servicio de YouTube (https://www.youtube.com/t/terms). Esto incluye cualquier uso de los servicios de la API de YouTube a través de nuestra plataforma."
+        ]
+      },
+      {
+        "title": "3. Datos del Usuario y Privacidad",
+        "paragraphs": [
+          "Recopilamos y almacenamos datos de usuario según sea necesario para proporcionar nuestros servicios. En este Sitio Web, actualmente recopilamos tu dirección de correo electrónico cuando te unes a nuestra lista de espera. Cuando uses la aplicación completa de ADDPOSTS, también podemos recopilar tu nombre, información de pago y tokens de acceso de autenticación de redes sociales. Para más detalles sobre cómo manejamos tus datos, consulta nuestra Política de Privacidad en https://addpostsai.com/privacy-policy."
+        ]
+      },
+      {
+        "title": "4. Recopilación de Datos No Personales",
+        "paragraphs": [
+          "Utilizamos cookies web y tecnologías similares para recopilar datos no personales con el fin de mejorar nuestros servicios y la experiencia del usuario."
+        ]
+      },
+      {
+        "title": "5. Propiedad y Derechos de Uso",
+        "paragraphs": [
+          "Cuando te suscribes a ADDPOSTS, puedes iniciar sesión en tus cuentas de redes sociales y autorizar el acceso a tus datos para que podamos publicar en tu nombre. Conservas la propiedad de tu contenido, pero nos otorgas los derechos necesarios para publicar, programar y gestionar publicaciones en las plataformas que conectes a ADDPOSTS."
+        ]
+      },
+      {
+        "title": "6. Política de Reembolso",
+        "paragraphs": [
+          "Ofrecemos una garantía de devolución de dinero de 7 días en suscripciones de pago. Si ADDPOSTS no es para ti, contáctanos dentro de los primeros 7 días de tu compra para un reembolso completo en addpostsai@gmail.com."
+        ]
+      },
+      {
+        "title": "7. Privacidad de Menores",
+        "paragraphs": [
+          "ADDPOSTS no está destinado para uso de menores de 13 años, y no recopilamos datos de menores de forma consciente."
+        ]
+      },
+      {
+        "title": "8. Actualizaciones de los Términos",
+        "paragraphs": [
+          "Podemos actualizar estos Términos de vez en cuando. Notificaremos a los usuarios registrados sobre cambios importantes por correo electrónico o a través de la aplicación."
+        ]
+      },
+      {
+        "title": "9. Ley Aplicable",
+        "paragraphs": [
+          "Estos Términos se rigen por las leyes de los Estados Unidos. Cualquier disputa derivada de estos Términos o de tu uso de ADDPOSTS estará sujeta a la jurisdicción exclusiva de los tribunales ubicados en los Estados Unidos, donde ADDSTRATEGIC LLC está registrada."
+        ]
+      },
+      {
+        "title": "10. Información de Contacto",
+        "paragraphs": [
+          "ADDPOSTS es operado por ADDSTRATEGIC LLC. Para cualquier pregunta o inquietud sobre estos Términos de Servicio, contáctanos en addpostsai@gmail.com."
+        ]
+      }
+    ],
+    "closing": "¡Gracias por usar ADDPOSTS!"
+  },
+  "privacyPolicy": {
+    "metadata": {
+      "title": "Política de Privacidad — ADDPOSTS",
+      "description": "Cómo ADDPOSTS, operado por ADDSTRATEGIC LLC, recopila, usa y protege tu información personal."
+    },
+    "title": "Política de Privacidad de ADDPOSTS",
+    "lastUpdated": "Última actualización: 22 de junio de 2026",
+    "intro": "Gracias por usar ADDPOSTS (\"nosotros\" o \"nuestro\"), un producto operado por ADDSTRATEGIC LLC, una sociedad de responsabilidad limitada registrada en los Estados Unidos. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos tu información personal y no personal cuando usas nuestro sitio web en https://addpostsai.com (el \"Sitio Web\") y nuestros servicios.",
+    "sections": [
+      {
+        "title": "1. Información que Recopilamos",
+        "paragraphs": [
+          "1.1 Datos Personales",
+          "Recopilamos la siguiente información personal según cómo interactúes con ADDPOSTS:"
+        ],
+        "list": [
+          "Correo electrónico: Recopilamos tu dirección de correo electrónico cuando te unes a nuestra lista de espera en este Sitio Web, y cuando creas una cuenta, para comunicarnos contigo sobre tu cuenta, actualizaciones del producto y soporte.",
+          "Nombre: Recopilamos tu nombre cuando creas una cuenta para personalizar tu experiencia y comunicarnos contigo de forma efectiva.",
+          "Información de pago: Cuando te suscribes a un plan de pago, los datos de pago son recopilados y procesados de forma segura por nuestro proveedor de pagos. No almacenamos números completos de tarjetas de pago en nuestros servidores.",
+          "Tokens de acceso de autenticación de redes sociales: Cuando conectas cuentas sociales a ADDPOSTS, recopilamos tokens de acceso OAuth y credenciales relacionadas para habilitar la publicación cruzada y la programación en tus plataformas conectadas."
+        ]
+      },
+      {
+        "title": "1.2 Datos No Personales",
+        "paragraphs": [
+          "Utilizamos cookies web y tecnologías similares para recopilar información no personal como tu dirección IP, tipo de navegador, información del dispositivo y patrones de navegación. Esta información nos ayuda a mejorar tu experiencia de navegación, analizar tendencias y mejorar nuestros servicios."
+        ]
+      },
+      {
+        "title": "2. Propósito de la Recopilación de Datos",
+        "paragraphs": [
+          "Recopilamos y usamos tus datos personales para operar ADDPOSTS, procesar suscripciones, habilitar la publicación cruzada y la programación, enviar confirmaciones y actualizaciones del producto, brindar soporte al cliente y mantenerte informado sobre tu cuenta y publicaciones."
+        ]
+      },
+      {
+        "title": "3. Servicios de la API de YouTube",
+        "paragraphs": [
+          "ADDPOSTS utiliza los Servicios de la API de YouTube para habilitar la publicación cruzada y la programación en YouTube. Al usar nuestro servicio para interactuar con YouTube, también estás sujeto a los Términos de Servicio de YouTube (https://www.youtube.com/t/terms)."
+        ]
+      },
+      {
+        "title": "4. Política de Privacidad de Google",
+        "paragraphs": [
+          "Como utilizamos los Servicios de la API de YouTube, tus datos también pueden estar sujetos a la Política de Privacidad de Google. Para más información sobre cómo Google recopila y procesa datos, consulta la Política de Privacidad de Google en https://www.google.com/policies/privacy."
+        ]
+      },
+      {
+        "title": "5. Compartición de Datos",
+        "paragraphs": [
+          "No vendemos tus datos personales. Compartimos tu información solo cuando es necesario para proporcionar nuestros servicios. Esto puede incluir compartir datos con procesadores de pago para facturación, proveedores de servicios de correo electrónico para comunicaciones, y las plataformas de redes sociales que elijas conectar, incluyendo YouTube a través de los Servicios de la API de YouTube."
+        ]
+      },
+      {
+        "title": "6. Privacidad de Menores",
+        "paragraphs": [
+          "ADDPOSTS no está destinado para menores de 13 años, y no recopilamos datos de menores de forma consciente."
+        ]
+      },
+      {
+        "title": "7. Actualizaciones de la Política de Privacidad",
+        "paragraphs": [
+          "Podemos actualizar esta Política de Privacidad de vez en cuando. Notificaremos a los usuarios registrados sobre cambios importantes por correo electrónico o a través de la aplicación."
+        ]
+      },
+      {
+        "title": "8. Información de Contacto",
+        "paragraphs": [
+          "ADDPOSTS es operado por ADDSTRATEGIC LLC. Si tienes preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad, contáctanos en addpostsai@gmail.com."
+        ]
+      },
+      {
+        "title": "9. Mecanismos de Protección de Datos",
+        "paragraphs": [
+          "Nos tomamos en serio la protección de tus datos sensibles y hemos implementado las siguientes medidas de seguridad:",
+          "a) Cifrado: Los tokens de acceso OAuth de redes sociales y otras credenciales sensibles se cifran utilizando protocolos de cifrado estándar de la industria tanto en tránsito como en reposo.",
+          "Si bien implementamos estas medidas de seguridad para proteger tu información sensible, ten en cuenta que ningún método de transmisión por Internet o de almacenamiento electrónico es 100% seguro. Nos esforzamos por usar medios comercialmente aceptables para proteger tu información personal, pero no podemos garantizar su seguridad absoluta."
+        ]
+      }
+    ],
+    "closing": "Al usar ADDPOSTS, aceptas los términos de esta Política de Privacidad."
+  },
+  "localeSwitcher": {
+    "es": "ES",
+    "en": "EN"
+  }
+}
