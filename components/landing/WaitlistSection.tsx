@@ -54,7 +54,7 @@ export function WaitlistSection() {
   return (
     <section
       id="waitlist"
-      className="section-dark relative w-full scroll-mt-20 py-16 md:py-24"
+      className="relative overflow-hidden bg-brand-dark py-20 lg:py-28"
     >
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center">

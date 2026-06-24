@@ -44,34 +44,18 @@ export function HeroSection() {
             </WaitlistCta>
           </div>
 
-          <div className="mt-10 flex items-center justify-center gap-3">
-            <div className="flex -space-x-2">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <div
-                  key={i}
-                  className="size-9 rounded-full border-2 border-white bg-brand-muted"
-                />
-              ))}
-            </div>
-            <p
-              className="text-sm text-brand-secondary"
-              dangerouslySetInnerHTML={{
-                __html: t.raw("socialProof") as string,
-              }}
-            />
-          </div>
+
         </div>
 
         <div className="mx-auto mt-16 max-w-4xl">
-          <div className="relative aspect-video overflow-hidden rounded-2xl border border-brand-border bg-zinc-900">
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
-              <div className="flex size-16 items-center justify-center rounded-full bg-white/10">
-                <Play className="size-8 fill-white text-white" />
-              </div>
-              <span className="text-sm text-white/70">
-                {t("videoPlaceholder")}
-              </span>
-            </div>
+          <div className="relative aspect-video overflow-hidden rounded-2xl border border-brand-border bg-zinc-900 shadow-[inset_1px_1px_2px_rgba(255,255,255,0.05),_0_12px_40px_rgba(0,0,0,0.5)]">
+            <iframe
+              src="https://www.youtube.com/embed/n2d8-zlvOes?autoplay=0&rel=0&modestbranding=1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 size-full border-0"
+              title="ADDPOSTS Demo Video"
+            />
           </div>
         </div>
       </div>

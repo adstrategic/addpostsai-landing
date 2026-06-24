@@ -22,11 +22,11 @@ import { WaitlistCta } from "./WaitlistCta"
 import { Separator } from "../ui/separator"
 
 const NAV_LINKS = [
-  { key: "pricing", href: "#pricing" },
-  { key: "reviews", href: "#reviews" },
-  { key: "features", href: "#features" },
-  { key: "platforms", href: "#platforms" },
-  { key: "faq", href: "#faq" },
+  { key: "pricing", href: "/#pricing" },
+  { key: "reviews", href: "/#reviews" },
+  { key: "features", href: "/#features" },
+  { key: "platforms", href: "/#platforms" },
+  { key: "faq", href: "/#faq" },
   { key: "blog", href: "#" },
 ] as const
 
@@ -48,24 +48,33 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header
+    <div
       className={cn(
-        "sticky top-0 z-50 border-b border-zinc-800 bg-brand-dark transition-shadow duration-200",
-        scrolled && "shadow-md"
+        "fixed left-0 right-0 top-0 z-50 transition-colors duration-300 border-b",
+        scrolled
+          ? "pointer-events-none px-4 pt-4 border-transparent bg-transparent"
+          : "pointer-events-auto border-zinc-800 bg-brand-dark"
       )}
     >
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <header
+        className={cn(
+          "relative mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8 transition-all duration-300",
+          scrolled
+            ? "clay-nav pointer-events-auto w-full max-w-5xl shadow-2xl"
+            : "w-full max-w-7xl"
+        )}
+      >
         <Logo />
 
         <nav className="hidden items-center gap-6 lg:flex">
           {NAV_LINKS.map(({ key, href }) => (
-            <a
+            <Link
               key={key}
-              href={href}
+              href={href as any}
               className="text-sm font-medium text-zinc-300 transition-colors duration-200 hover:text-white"
             >
               {t(key)}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -94,17 +103,16 @@ export function Navbar() {
 
               <nav className="flex flex-col gap-4 px-6 pb-4">
                 {NAV_LINKS.map(({ key, href }) => (
-                  <>
-                    <a
-                      key={key}
-                      href={href}
+                  <div key={key} className="flex flex-col gap-4">
+                    <Link
+                      href={href as any}
                       onClick={() => setOpen(false)}
                       className="text-base font-medium text-zinc-300 transition-colors hover:text-white"
                     >
                       {t(key)}
-                    </a>
+                    </Link>
                     <Separator />
-                  </>
+                  </div>
                 ))}
                 <div className="mt-4 flex flex-col gap-3 border-brand-border pt-4">
                   <WaitlistCta onNavigate={() => setOpen(false)}>
@@ -115,7 +123,7 @@ export function Navbar() {
             </SheetContent>
           </Sheet>
         </div>
-      </div>
-    </header>
+      </header>
+    </div>
   )
 }

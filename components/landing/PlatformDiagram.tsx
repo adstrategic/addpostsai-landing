@@ -19,7 +19,7 @@ export function PlatformDiagram() {
   const platformPositions = getDiagramPositions(DIAGRAM_PLATFORM_IDS.length)
 
   return (
-    <div className="rounded-2xl border border-brand-border bg-surface-alt p-6 shadow-sm">
+    <div className="rounded-2xl border border-white/10 bg-brand-dark p-6 shadow-2xl transition-[transform,box-shadow] duration-400 ease-[cubic-bezier(0.23,1,0.32,1)] hover:-translate-y-1 hover:scale-[1.02] hover:shadow-[0_30px_60px_-15px_rgba(var(--primary-rgb),0.3)] will-change-[transform,box-shadow]">
       <svg viewBox="0 0 400 380" className="h-auto w-full" aria-hidden="true">
         {platformPositions.map((pos, i) => (
           <line
@@ -28,9 +28,9 @@ export function PlatformDiagram() {
             y1="190"
             x2={pos.cx - 26}
             y2={pos.cy}
-            stroke="#D1EEEE"
+            stroke="var(--color-primary)"
             strokeWidth="2"
-            className="dash-animate"
+            className="dash-animate opacity-70"
             style={{
               strokeDasharray: 100,
               strokeDashoffset: 100,
@@ -44,8 +44,9 @@ export function PlatformDiagram() {
           y1="190"
           x2="130"
           y2="190"
-          stroke="#D1EEEE"
+          stroke="var(--color-primary)"
           strokeWidth="2"
+          className="opacity-70"
         />
 
         <circle
@@ -53,28 +54,27 @@ export function PlatformDiagram() {
           cy="190"
           r="28"
           fill="white"
-          stroke="#D1EEEE"
+          stroke="var(--color-primary)"
           strokeWidth="2"
         />
         <foreignObject x="34" y="174" width="32" height="32">
-          <User className="size-8 text-brand-muted" />
+          <User className="size-8 text-primary" />
         </foreignObject>
 
         <circle
           cx="180"
           cy="190"
-          r="32"
-          fill="#020817"
-          className="drop-shadow-sm"
+          r="34"
+          fill="white"
+          className="drop-shadow-lg"
         />
         <foreignObject x="148" y="158" width="64" height="64">
-          <div className="flex size-16 items-center justify-center overflow-hidden rounded-full">
+          <div className="flex size-16 items-center justify-center">
             <Image
-              src="/logos/addposts-icon.png"
+              src="/logos/logo-addposts.png"
               alt=""
-              width={48}
-              height={48}
-              className="rounded-full"
+              width={38}
+              height={38}
             />
           </div>
         </foreignObject>

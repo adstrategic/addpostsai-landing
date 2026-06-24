@@ -15,7 +15,7 @@ export function AppLogo({
   return rounded ? (
     <div className="flex size-10 items-center justify-center rounded-full bg-brand-dark text-sm font-bold text-primary-foreground">
       <Image
-        src="/logos/addposts-icon.png"
+        src="/logos/logo-addposts.png"
         alt="ADDPOSTS"
         width={size}
         height={size}
@@ -24,7 +24,7 @@ export function AppLogo({
     </div>
   ) : (
     <Image
-      src="/logos/addposts-icon.png"
+      src="/logos/logo-addposts.png"
       alt="ADDPOSTS"
       width={size}
       height={size}

@@ -55,17 +55,17 @@ function StatCard({ value, label }: { value: string; label: string }) {
   const { display, ref } = useCountUp(value)
 
   return (
-    <Card className="rounded-2xl border-brand-border bg-white p-8 text-center shadow-sm">
+    <div className="rounded-2xl border border-brand-border bg-white p-8 text-center shadow-[inset_1px_1px_2px_rgba(255,255,255,1),_inset_-1px_-1px_2px_rgba(0,0,0,0.05),_0_8px_24px_rgba(0,0,0,0.04)] transition-[transform,box-shadow] duration-400 ease-[cubic-bezier(0.23,1,0.32,1)] hover:-translate-y-1 hover:scale-[1.02] hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.15),_0_8px_16px_-4px_rgba(0,0,0,0.1)] will-change-[transform,box-shadow]">
       <div
         ref={ref}
-        className="font-display text-[clamp(2.5rem,6vw,4rem)] font-extrabold text-brand-text"
+        className="font-display text-[clamp(2rem,5vw,3.5rem)] font-extrabold bg-gradient-to-br from-gray-900 to-primary bg-clip-text text-transparent"
       >
         {display}
       </div>
       <p className="mt-2 text-xs font-semibold tracking-widest text-brand-muted uppercase">
         {label}
       </p>
-    </Card>
+    </div>
   )
 }
 

@@ -1,4 +1,4 @@
-import { Sora, Inter } from "next/font/google"
+import { Sora, Inter, Playfair_Display } from "next/font/google"
 import { NextIntlClientProvider, hasLocale } from "next-intl"
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server"
 import { notFound } from "next/navigation"
@@ -14,6 +14,11 @@ const sora = Sora({
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+})
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
 })
 
 type Props = {
@@ -48,7 +53,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={cn("antialiased", sora.variable, inter.variable)}
+      className={cn("antialiased", sora.variable, inter.variable, playfair.variable)}
     >
       <body>
         <NextIntlClientProvider messages={messages}>

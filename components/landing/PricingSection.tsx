@@ -17,6 +17,16 @@ export function PricingSection() {
 
   const plans: PlanKey[] = ["creator", "growth", "pro"]
 
+  const getPrice = (priceStr: string, isYearly: boolean) => {
+    if (!isYearly) return priceStr
+    const numMatch = priceStr.match(/\d+/)
+    if (!numMatch) return priceStr
+    const num = parseInt(numMatch[0], 10)
+    // 17% discount approximation
+    const discounted = Math.round(num * 0.83)
+    return priceStr.replace(num.toString(), discounted.toString())
+  }
+
   return (
     <section id="pricing" className="bg-surface-alt py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -45,7 +55,6 @@ export function PricingSection() {
               type="button"
               onClick={() => {
                 setBilling("yearly")
-                // TODO: wire yearly prices
               }}
               className={cn(
                 "relative rounded-full px-5 py-2 text-sm font-medium transition-colors duration-200",
@@ -80,16 +89,16 @@ export function PricingSection() {
               isCreator || isPro ? t(`plans.${planKey}.badge`) : null
 
             return (
-              <Card
+              <div
                 key={planKey}
                 className={cn(
-                  "relative p-6",
+                  "relative rounded-2xl p-8 shadow-[inset_1px_1px_2px_rgba(255,255,255,1),_inset_-1px_-1px_2px_rgba(0,0,0,0.05),_0_8px_24px_rgba(0,0,0,0.04)] bg-gradient-to-b from-white to-primary/10 transition-[transform,box-shadow] duration-400 ease-[cubic-bezier(0.23,1,0.32,1)] hover:-translate-y-1 hover:scale-[1.02] hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.15),_0_8px_16px_-4px_rgba(0,0,0,0.1)] will-change-[transform,box-shadow]",
                   isCreator
-                    ? "border-2 border-primary shadow-lg"
+                    ? "border-2 border-primary shadow-[0_0_40px_rgba(var(--primary),0.2)]"
                     : "border border-brand-border"
                 )}
               >
-                <CardContent>
+                <div>
                   {badge && (
                     <Badge
                       className={cn(
@@ -109,8 +118,8 @@ export function PricingSection() {
                     {t(`plans.${planKey}.description`)}
                   </p>
                   <div className="mt-4">
-                    <span className="font-display text-5xl font-extrabold text-brand-text">
-                      {t(`plans.${planKey}.price`)}
+                    <span className="font-display text-5xl font-extrabold bg-gradient-to-br from-gray-900 to-primary bg-clip-text text-transparent">
+                      {getPrice(t(`plans.${planKey}.price`), billing === "yearly")}
                     </span>
                     <span className="text-sm text-brand-muted">
                       {t("perMonth")}
@@ -130,8 +139,8 @@ export function PricingSection() {
                   <WaitlistCta size="lg" className="mt-6 w-full">
                     {t(`plans.${planKey}.cta`)}
                   </WaitlistCta>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             )
           })}
         </div>

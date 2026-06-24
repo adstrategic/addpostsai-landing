@@ -7,6 +7,7 @@
 @theme inline {
   --font-display: var(--font-sora), sans-serif;
   --font-sans: var(--font-inter), sans-serif;
+  --font-serif: var(--font-playfair), serif;
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -213,4 +214,73 @@
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+}
+
+@utility clay-btn {
+  border-radius: 9999px !important;
+  background: linear-gradient(135deg, oklch(0.65 0.14 185) 0%, oklch(0.5 0.1 185) 100%);
+  color: var(--color-primary-foreground);
+  box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.4),
+              inset -2px -2px 4px rgba(0, 0, 0, 0.2),
+              0 4px 10px rgba(0, 0, 0, 0.4);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: inset 2px 2px 6px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 6px rgba(0, 0, 0, 0.3),
+                0 6px 14px rgba(0, 0, 0, 0.5);
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.4),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.3),
+                0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@utility clay-card {
+  border-radius: var(--radius-2xl);
+  background: linear-gradient(145deg, oklch(0.17 0.02 185), oklch(0.13 0.01 185));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.05),
+              inset -1px -1px 2px rgba(0, 0, 0, 0.3),
+              0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1), box-shadow 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform, box-shadow;
+
+  &:hover {
+    box-shadow: inset 1px 1px 3px rgba(255, 255, 255, 0.08),
+                inset -1px -1px 3px rgba(0, 0, 0, 0.4),
+                0 12px 32px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px) scale(1.01);
+  }
+}
+
+@utility premium-hover-card {
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1), box-shadow 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform, box-shadow;
+
+  &:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15),
+                0 8px 16px -4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@utility clay-nav {
+  border-radius: 9999px;
+  background: linear-gradient(145deg, rgba(3, 10, 25, 0.95), rgba(2, 8, 20, 0.95));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.08),
+              inset -1px -1px 2px rgba(0, 0, 0, 0.5),
+              0 8px 32px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+@keyframes fly {
+  0% { transform: translateX(-50px); }
+  100% { transform: translateX(100vw); }
 }

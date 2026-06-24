@@ -16,6 +16,7 @@ import { FaqSection } from "@/components/landing/FaqSection"
 import { CtaBanner } from "@/components/landing/CtaBanner"
 import { Footer } from "@/components/landing/Footer"
 import { routing } from "@/i18n/routing"
+import { SectionDivider } from "@/components/landing/SectionDivider"
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -35,17 +36,23 @@ export default async function HomePage({ params }: Props) {
       <main className="bg-brand-dark">
         <HeroSection />
         <WaitlistSection />
+        <SectionDivider variant="plane" theme="dark" />
         <CrossPostingSection />
         <AiCopywritingSection />
+        <SectionDivider variant="plane" theme="dark" />
         <ContentManagementSection />
         <SchedulingSection />
         {/* <ContentStudioSection /> */}
+        <SectionDivider variant="plane" theme="dark" />
         <StatsSection />
         <TestimonialsSection />
+        <SectionDivider variant="plane" theme="light" />
         <FounderSection />
         <PlatformGridSection />
+        <SectionDivider variant="plane" theme="dark" />
         <PricingSection />
         <FaqSection />
+        <SectionDivider variant="plane" theme="dark" />
         <CtaBanner />
       </main>
       <Footer />

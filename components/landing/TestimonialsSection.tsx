@@ -27,12 +27,12 @@ export function TestimonialsSection() {
             <figure
               key={i}
               className={cn(
-                "mb-4 w-full break-inside-avoid rounded-lg border border-brand-border bg-white p-4 sm:p-6"
+                "mb-4 w-full break-inside-avoid rounded-lg border border-brand-border bg-white p-4 sm:p-6 shadow-[inset_1px_1px_2px_rgba(255,255,255,1),_0_2px_10px_rgba(0,0,0,0.02)] transition-[transform,box-shadow] duration-400 ease-[cubic-bezier(0.23,1,0.32,1)] hover:-translate-y-1 hover:scale-[1.02] hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.15),_0_8px_16px_-4px_rgba(0,0,0,0.1)] will-change-[transform,box-shadow]"
               )}
             >
               <figcaption className="flex flex-wrap items-center gap-4">
                 <div>
-                  <p className="text-sm font-semibold text-brand-text">
+                  <p className="font-display text-sm font-semibold text-brand-text">
                     {item.name}
                   </p>
                   <span className="mt-0.5 block text-xs font-medium text-brand-muted">
@@ -56,8 +56,8 @@ export function TestimonialsSection() {
               </div>
 
               <blockquote className="mt-4">
-                <p className="text-sm leading-relaxed text-brand-secondary">
-                  {item.text}
+                <p className="font-serif text-[15px] italic leading-relaxed text-brand-secondary">
+                  "{item.text}"
                 </p>
               </blockquote>
             </figure>
