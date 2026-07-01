@@ -40,9 +40,6 @@ export function AddReachFlow() {
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             {t("title")}
           </h2>
-          <p className="text-lg text-zinc-400">
-            {t("subtitle")}
-          </p>
         </ScrollReveal>
 
         <div className="relative">
