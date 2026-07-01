@@ -25,6 +25,7 @@ const NAV_LINKS = [
   { key: "pricing", href: "/#pricing" },
   { key: "reviews", href: "/#reviews" },
   { key: "features", href: "/#features" },
+  { key: "addReach", href: "/addreach" },
   { key: "platforms", href: "/#platforms" },
   { key: "faq", href: "/#faq" },
   { key: "blog", href: "#" },
@@ -32,7 +33,7 @@ const NAV_LINKS = [
 
 function Logo() {
   return (
-    <Link href="/" className="flex items-center gap-2">
+    <Link href="/" className="flex items-center gap-2 shrink-0">
       <AppLogo size={40} rounded={false} />
       <span className="font-display text-lg font-bold text-white">
         ADDPOSTS
@@ -58,27 +59,34 @@ export function Navbar() {
     >
       <header
         className={cn(
-          "relative mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8 transition-all duration-300",
+          "relative mx-auto flex h-20 items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 transition-all duration-300",
           scrolled
-            ? "clay-nav pointer-events-auto w-full max-w-5xl shadow-2xl"
-            : "w-full max-w-7xl"
+            ? "clay-nav pointer-events-auto w-full max-w-6xl shadow-2xl"
+            : "w-full max-w-7xl lg:h-24"
         )}
       >
-        <Logo />
+        <div className="flex-1 flex items-center justify-start">
+          <Logo />
+        </div>
 
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center justify-center gap-6 lg:flex xl:gap-8">
           {NAV_LINKS.map(({ key, href }) => (
             <Link
               key={key}
               href={href as any}
-              className="text-sm font-medium text-zinc-300 transition-colors duration-200 hover:text-white"
+              className={cn(
+                "text-sm font-medium transition-colors duration-200 hover:text-white",
+                key === "addReach" 
+                  ? "text-accent drop-shadow-[0_0_8px_rgba(244,63,94,0.5)]" 
+                  : "text-zinc-300"
+              )}
             >
               {t(key)}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center justify-end gap-3 lg:flex flex-1">
           <LocaleSwitcher />
           <WaitlistCta size="lg" className="px-6">
             {tWaitlist("cta")}

@@ -7,6 +7,7 @@ import { SchedulingSection } from "@/components/landing/SchedulingSection"
 import { ContentManagementSection } from "@/components/landing/ContentManagementSection"
 import { ContentStudioSection } from "@/components/landing/ContentStudioSection"
 import { AiCopywritingSection } from "@/components/landing/AiCopywritingSection"
+import { AddReachPreviewSection } from "@/components/landing/AddReachPreviewSection"
 import { StatsSection } from "@/components/landing/StatsSection"
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection"
 import { FounderSection } from "@/components/landing/FounderSection"
@@ -39,6 +40,8 @@ export default async function HomePage({ params }: Props) {
         <SectionDivider variant="plane" theme="dark" />
         <CrossPostingSection />
         <AiCopywritingSection />
+        <SectionDivider variant="plane" theme="dark" />
+        <AddReachPreviewSection />
         <SectionDivider variant="plane" theme="dark" />
         <ContentManagementSection />
         <SchedulingSection />

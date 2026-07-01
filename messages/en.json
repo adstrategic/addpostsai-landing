@@ -13,8 +13,9 @@
     "tools": "Tools",
     "api": "API",
     "billing": "Billing",
-    "login": "Log in",
-    "tryFree": "Try free →"
+    "login": "Login",
+    "tryFree": "Try for free →",
+    "addReach": "AddReach"
   },
   "hero": {
     "headline": "Post to all your social accounts from",
@@ -159,9 +160,18 @@
     }
   },
   "stats": {
-    "platforms": { "value": "6", "label": "PLATFORMS" },
-    "posts": { "value": "500,000+", "label": "POSTS PUBLISHED" },
-    "time": { "value": "2 min", "label": "AVG TIME TO POST" },
+    "platforms": {
+      "value": "6",
+      "label": "PLATFORMS"
+    },
+    "posts": {
+      "value": "500,000+",
+      "label": "POSTS PUBLISHED"
+    },
+    "time": {
+      "value": "2 min",
+      "label": "AVG TIME TO POST"
+    },
     "cta": "Try it for free →",
     "lovedBy": "ADDPOSTS is loved by",
     "lovedByAccent": "50+ users.",
@@ -270,7 +280,7 @@
         "name": "Minimum",
         "badge": "Most popular",
         "description": "Best for growing creators",
-        "price": "$29",
+        "price": "$29.99",
         "cta": "Start free trial",
         "features": [
           "15 connected social accounts",
@@ -283,14 +293,15 @@
       "growth": {
         "name": "Essential",
         "description": "For small teams",
-        "price": "$49",
+        "price": "$79.99",
         "cta": "Get started →",
         "features": [
           "50 connected social accounts",
           "Unlimited posts",
           "Advanced scheduling",
           "Priority support",
-          "Basic analytics"
+          "Basic analytics",
+          "AddReach access"
         ]
       },
       "pro": {
@@ -304,7 +315,8 @@
           "Unlimited posts",
           "Advanced scheduling",
           "Dedicated support",
-          "Analytics"
+          "Analytics",
+          "AddReach access"
         ]
       }
     }
@@ -335,7 +347,8 @@
       },
       {
         "q": "How many posts can I make and schedule per month?",
-        "a": "All posts and scheduling are unlimited on every plan. Post and schedule as much as you need with no monthly caps."
+        "a": "All posts and scheduling are unlimited on every plan. Post and schedule as much as you need with no monthly caps.",
+        "footer2": "We don't post randomly or spam. We schedule based on what you need, ensuring your audience is engaged without being overwhelmed."
       },
       {
         "q": "What types of content can I post?",
@@ -563,5 +576,291 @@
   "localeSwitcher": {
     "es": "ES",
     "en": "EN"
+  },
+  "addReach": {
+    "nav": "AddReach",
+    "preview": {
+      "title": "AddReach:",
+      "titleAccent": "Scaled Word-of-Mouth",
+      "description": "Turn real people into your sales engine. Reach thousands through authentic recommendations on social networks and Dark Social.",
+      "cta": "Discover AddReach →"
+    },
+    "hero": {
+      "titleBrand": "ADDREACH",
+      "title": "The AI-Scaled",
+      "titleAccent": "Word of Mouth Revolution.",
+      "description": "Turn real people into your business's sales engine. Reach thousands of potential customers through authentic recommendations on social networks and Dark Social (WhatsApp), paying only for verified posts.",
+      "ctaPrimary": "Launch First Campaign",
+      "ctaSecondary": "I Want to Earn Money"
+    },
+    "problemSolution": {
+      "sectionTitle": "From Ignored Ads to Authentic Recommendations",
+      "problemTitle": "Why is traditional advertising losing its power?",
+      "problemText": "Today, users ignore corporate ads, but blindly trust their friends' recommendations.",
+      "solutionTitle": "The Solution",
+      "solutionText": "With AddReach, we transform the ADDPOSTS AI ecosystem. You don't just manage your content anymore; you can now buy real, organic reach. Instead of paying $500 to Meta or Google for your ad to be swiped past, invest that same $500 in 100 local people who will publish your promotion directly to their trusted circles. Higher conversion, lower cost, zero fake accounts."
+    },
+    "profiles": {
+      "title": "Double Focus (Choose your Profile)",
+      "brands": {
+        "title": "FOR BRANDS & AGENCIES",
+        "subtitle": "Multiply your reach without risking your reputation.",
+        "description": "AddReach gives you access to a network of verified micro-ambassadors ready to amplify your message.",
+        "features": {
+          "targeting": {
+            "title": "Surgical Targeting:",
+            "text": "Choose the exact niche (e.g., college students, fitness lovers, locals in your city)."
+          },
+          "safety": {
+            "title": "Total Brand Shield:",
+            "text": "Ambassadors don't invent content. You upload the official photo or video; they just copy and paste. Your message is always perfect."
+          },
+          "conversion": {
+            "title": "High Conversion (Dark Social):",
+            "text": "Reach where ads can't: WhatsApp Statuses and Private Instagram Accounts."
+          },
+          "roi": {
+            "title": "Guaranteed ROI:",
+            "text": "The Escrow system holds your payment. It's only released if our platform verifies the post was made correctly and lasted the agreed time."
+          }
+        }
+      },
+      "creators": {
+        "title": "FOR CREATORS & USERS",
+        "subtitle": "Monetize your social networks without friction.",
+        "description": "You don't need a million followers to generate income. Your circle of trust has value.",
+        "features": {
+          "easyMoney": {
+            "title": "Earn Easy Money:",
+            "text": "Apply to brand campaigns you like with a single click."
+          },
+          "noEffort": {
+            "title": "Zero Creative Effort:",
+            "text": "No need to record videos or think about what to write. The brand gives you the exact photo. Just download, post, and get paid."
+          },
+          "securePayments": {
+            "title": "Secure Payments:",
+            "text": "The brand's money is frozen the moment you're approved. After 24 hours and verifying your post, the money goes to your wallet."
+          },
+          "freedom": {
+            "title": "Total Freedom:",
+            "text": "Choose which networks to post on (Instagram, X, WhatsApp) based on the board's opportunities."
+          }
+        }
+      }
+    },
+    "flow": {
+      "title": "How does it work?",
+      "step1": {
+        "title": "Create & Set Price (Brand)",
+        "description": "Design your campaign in seconds. Upload the official asset, choose your target audience, and define how much you'll pay per post (e.g. $5)."
+      },
+      "step2": {
+        "title": "Instant Match (System)",
+        "description": "Our verified users see your offer on their 'Opportunity Board'. They apply with one click. You review and approve only those who fit."
+      },
+      "step3": {
+        "title": "Zero-Friction Post (Ambassador)",
+        "description": "Once approved, the user automatically receives the official material. They copy and post it without altering the message."
+      },
+      "step4": {
+        "title": "Verification & Payout (AddReach Tech)",
+        "description": "After 24 hours, our AI audits the link or screenshot (OCR). Upon verification, payment is released automatically. No fraud, no stress."
+      }
+    },
+    "ai": {
+      "title": "Powered by Artificial Intelligence",
+      "subtitle": "Simple, Effective, and Functional AI that makes scaled word-of-mouth possible.",
+      "segmentation": {
+        "title": "1. AI Targeting (Smart Matching)",
+        "description": "Instead of letting the brand owner waste hours looking for the right fit, AI does the dirty work.",
+        "features": {
+          "matching": {
+            "title": "Profile Matching:",
+            "text": "Upon applying, AI automatically compares the user's interest categories with the brand's requirements. If the creator's profile matches the requested niche, they are marked as a 'Recommended Candidate'."
+          }
+        }
+      },
+      "brandShield": {
+        "title": "2. AI 'Brand Shield' (Basic Audit)",
+        "description": "How do we ensure the creator publishes exactly what we want?",
+        "features": {
+          "vision": {
+            "title": "Post Validation:",
+            "text": "When the user pastes the link, AI verifies that the URL is valid and that the published content matches the official image provided by the brand."
+          },
+          "ocr": {
+            "title": "WhatsApp (Dark Social):",
+            "text": "The system uses simple OCR to confirm that the uploaded screenshot contains the correct image or message, ensuring the task was completed."
+          }
+        }
+      },
+      "creatorAssistant": {
+        "title": "3. AI for the Creator (Format Assistant)",
+        "description": "We make the creator more efficient so they accept more campaigns.",
+        "features": {
+          "multiformat": {
+            "title": "Multi-format Adapter:",
+            "text": "If the brand uploads a standard format photo, AI automatically adjusts it to story format (9:16) with a clean background. This avoids any editing on the creator's end, ensuring the image is always professional and ready to post."
+          }
+        }
+      },
+      "fraudPrevention": {
+        "title": "4. AI Fraud Prevention (Brand Protection)",
+        "description": "This is what will make brands blindly trust AddReach.",
+        "features": {
+          "anomalies": {
+            "title": "Anomaly Detection:",
+            "text": "The system detects if a creator tries to upload recycled screenshots from other users or digitally altered images, flagging the task for immediate review and preventing improper payments."
+          }
+        }
+      },
+      "whyItWins": {
+        "title": "Why is this AI the winner?",
+        "features": {
+          "reliability": {
+            "title": "Reliability:",
+            "text": "We don't try to guess if a user is 'human' or 'bot' through complex analysis; we simply verify that the requested work was done (the screenshot matches)."
+          },
+          "speed": {
+            "title": "Speed:",
+            "text": "Automatic image resizing makes creators prefer AddReach over others because we save them editing time."
+          },
+          "transparency": {
+            "title": "Transparency:",
+            "text": "For the brand, the process is: Upload content -> Approve creator -> See finished post. Period. No subjective reports."
+          }
+        }
+      }
+    },
+    "trust": {
+      "title": "Trust & Safety",
+      "subtitle": "Anti-Fraud Verification",
+      "description": "We know quality is everything. That's why the AddReach ecosystem is armored:",
+      "features": {
+        "auth": {
+          "title": "Strict Authentication:",
+          "text": "Zero bot farms. All users must link their real social networks via OAuth to apply."
+        },
+        "review": {
+          "title": "AI & Manual Review:",
+          "text": "Automated URL validation via AI for public networks, and OCR screenshot scanning for private networks like WhatsApp."
+        },
+        "reputation": {
+          "title": "Reputation System:",
+          "text": "Brands can view the 'Trust Score' of each applicant based on the success of their past campaigns."
+        }
+      }
+    },
+    "video": {
+      "title": "See how it works in action",
+      "subtitle": "Discover the power of AddReach in under 2 minutes."
+    },
+    "cta": {
+      "title": "Ready to transform your content strategy into a customer acquisition machine?",
+      "subtitle": "Join the evolution of digital advertising.",
+      "brandBtn": "Start as Brand (Create Campaign)",
+      "creatorBtn": "Start as Ambassador (Earn Money)"
+    },
+    "brandsPage": {
+      "hero": {
+        "title": "Create word-of-mouth campaigns that",
+        "titleAccent": "actually convert.",
+        "description": "Access hundreds of local ambassadors ready to post your promotion on their Instagram stories and WhatsApp. Pay only for AI-verified posts.",
+        "cta": "Start as a Brand"
+      },
+      "howItWorks": {
+        "title": "The Perfect Flow for Advertisers",
+        "steps": {
+          "step1": {
+            "title": "1. Upload Your Promo",
+            "text": "Design your campaign in 2 minutes. Upload the photo or video, set the pay per post, and define the niche."
+          },
+          "step2": {
+            "title": "2. Smart Match",
+            "text": "Our AI automatically finds the ideal users that fit your brand."
+          },
+          "step3": {
+            "title": "3. Immediate Distribution",
+            "text": "Selected users receive your content and post it on their social networks. No alterations, your message is perfect."
+          },
+          "step4": {
+            "title": "4. Pay for Results",
+            "text": "After 24 hours, the AI verifies that the content was posted correctly using OCR and computer vision. Only then is payment released."
+          }
+        }
+      },
+      "advantages": {
+        "title": "The AddReach Advantage",
+        "features": {
+          "shield": {
+            "title": "Brand Shield",
+            "text": "Zero reputational risk. Users publish exactly what you give them."
+          },
+          "roi": {
+            "title": "Higher Conversion",
+            "text": "Recommendations from friends generate up to 4 times more sales than cold ads."
+          },
+          "escrow": {
+            "title": "Secure Payments",
+            "text": "Your money is protected in escrow until the work is verified."
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to launch your campaign?",
+        "btn": "Create my first campaign"
+      }
+    },
+    "creatorsPage": {
+      "hero": {
+        "title": "Monetize your social networks.",
+        "titleAccent": "Effortlessly.",
+        "description": "Earn money by posting content from your favorite brands on your Instagram stories or WhatsApp status. You don't need to be a huge influencer; your trusted circle has value.",
+        "cta": "Start earning money"
+      },
+      "howItWorks": {
+        "title": "The Perfect Flow for Ambassadors",
+        "steps": {
+          "step1": {
+            "title": "1. Apply for Campaigns",
+            "text": "Check the opportunity board and apply to campaigns from the brands you like with a single click."
+          },
+          "step2": {
+            "title": "2. Copy and Paste",
+            "text": "No need to record or edit. Download the brand's official material and post it on your networks."
+          },
+          "step3": {
+            "title": "3. Wait 24 Hours",
+            "text": "Let the post run on your Instagram stories, X, or WhatsApp for the required time."
+          },
+          "step4": {
+            "title": "4. Upload Screenshot and Get Paid",
+            "text": "Upload the link or a screenshot. Our AI audits the post and your money is automatically released to your wallet."
+          }
+        }
+      },
+      "advantages": {
+        "title": "The AddReach Advantage",
+        "features": {
+          "frictionless": {
+            "title": "Zero Friction",
+            "text": "You don't have to think about what to say or how to edit. Just post and get paid."
+          },
+          "instant": {
+            "title": "Secure Payments",
+            "text": "Money is guaranteed. Once your post is verified, you get paid without delay."
+          },
+          "freedom": {
+            "title": "Total Freedom",
+            "text": "You decide when and on which platform to post the campaigns you accept."
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to start earning?",
+        "btn": "Join as an Ambassador"
+      }
+    }
   }
 }

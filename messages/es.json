@@ -14,7 +14,8 @@
     "api": "API",
     "billing": "Facturación",
     "login": "Iniciar sesión",
-    "tryFree": "Probar gratis →"
+    "tryFree": "Probar gratis →",
+    "addReach": "AddReach"
   },
   "hero": {
     "headline": "Publica en todas tus redes desde",
@@ -159,9 +160,18 @@
     }
   },
   "stats": {
-    "platforms": { "value": "6", "label": "PLATAFORMAS" },
-    "posts": { "value": "500.000+", "label": "PUBLICACIONES" },
-    "time": { "value": "2 min", "label": "TIEMPO PROMEDIO" },
+    "platforms": {
+      "value": "6",
+      "label": "PLATAFORMAS"
+    },
+    "posts": {
+      "value": "500.000+",
+      "label": "PUBLICACIONES"
+    },
+    "time": {
+      "value": "2 min",
+      "label": "TIEMPO PROMEDIO"
+    },
     "cta": "Pruébalo gratis →",
     "lovedBy": "ADDPOSTS es amado por",
     "lovedByAccent": "50+ usuarios.",
@@ -270,7 +280,7 @@
         "name": "Minimum",
         "badge": "Más popular",
         "description": "Ideal para creadores en crecimiento",
-        "price": "$29",
+        "price": "$29.99",
         "cta": "Empezar prueba gratis",
         "features": [
           "15 cuentas sociales conectadas",
@@ -283,14 +293,15 @@
       "growth": {
         "name": "Essential",
         "description": "Para equipos pequeños",
-        "price": "$49",
+        "price": "$79.99",
         "cta": "Empezar →",
         "features": [
           "50 cuentas sociales conectadas",
           "Publicaciones ilimitadas",
           "Programación avanzada",
           "Soporte prioritario",
-          "Analíticas"
+          "Analíticas",
+          "Acceso a AddReach"
         ]
       },
       "pro": {
@@ -304,7 +315,8 @@
           "Publicaciones ilimitadas",
           "Programación avanzada",
           "Soporte dedicado",
-          "Analíticas"
+          "Analíticas",
+          "Acceso a AddReach"
         ]
       }
     }
@@ -335,7 +347,8 @@
       },
       {
         "q": "¿Cuántas publicaciones puedo hacer y programar al mes?",
-        "a": "Todas las publicaciones y programaciones son ilimitadas en todos los planes. Publica y programa todo lo que necesites sin límites mensuales."
+        "a": "Todas las publicaciones y programaciones son ilimitadas en todos los planes. Publica y programa todo lo que necesites sin límites mensuales.",
+        "footer2": "No publicamos al azar ni hacemos spam. Programamos según lo que necesites, asegurando que tu audiencia esté interesada sin abrumarla."
       },
       {
         "q": "¿Qué tipos de contenido puedo publicar?",
@@ -562,5 +575,291 @@
   "localeSwitcher": {
     "es": "ES",
     "en": "EN"
+  },
+  "addReach": {
+    "nav": "AddReach",
+    "preview": {
+      "title": "AddReach:",
+      "titleAccent": "El Boca a Boca Escalonado",
+      "description": "Convierte a personas reales en tu motor de ventas. Llega a miles a través de recomendaciones auténticas en redes sociales y Dark Social.",
+      "cta": "Descubrir AddReach →"
+    },
+    "hero": {
+      "titleBrand": "ADDREACH",
+      "title": "La Revolución del",
+      "titleAccent": "Boca a Boca con IA.",
+      "description": "Convierte a personas reales en el motor de ventas de tu negocio. Llega a miles de clientes potenciales a través de recomendaciones auténticas en redes sociales y \"Dark Social\" (WhatsApp), pagando solo por publicaciones verificadas.",
+      "ctaPrimary": "Lanzar mi Primera Campaña",
+      "ctaSecondary": "Quiero Ganar Dinero Publicando"
+    },
+    "problemSolution": {
+      "sectionTitle": "De Anuncios Ignorados a Recomendaciones Auténticas",
+      "problemTitle": "¿Por qué la publicidad tradicional está perdiendo fuerza?",
+      "problemText": "Hoy en día, los usuarios ignoran los anuncios corporativos, pero confían ciegamente en las recomendaciones de sus amigos.",
+      "solutionTitle": "La Solución",
+      "solutionText": "Con AddReach, transformamos el ecosistema de ADDPOSTS AI. Ya no solo gestionas tu contenido; ahora puedes comprar alcance orgánico y real. En lugar de pagar $500 dólares a Meta o Google para que tu anuncio sea deslizado, invierte esos mismos $500 en 100 personas locales que publicarán tu promoción directamente a sus círculos de confianza. Mayor conversión, menor costo, cero cuentas falsas."
+    },
+    "profiles": {
+      "title": "Doble Enfoque (Elige tu Perfil)",
+      "brands": {
+        "title": "🏢 PARA DUEÑOS DE MARCA Y AGENCIAS",
+        "subtitle": "Multiplica tu alcance sin arriesgar tu reputación.",
+        "description": "AddReach te permite acceder a una red de micro-embajadores verificados dispuestos a amplificar tu mensaje.",
+        "features": {
+          "targeting": {
+            "title": "Segmentación Quirúrgica:",
+            "text": "Elige el nicho exacto (ej. universitarios, amantes del fitness, locales de tu ciudad)."
+          },
+          "safety": {
+            "title": "Blindaje de Marca Total:",
+            "text": "Los embajadores no inventan el contenido. Tú subes la foto o el video oficial; ellos solo copian y pegan. Tu mensaje siempre es perfecto."
+          },
+          "conversion": {
+            "title": "Alta Conversión (Dark Social):",
+            "text": "Llega a donde los anuncios no pueden: Estados de WhatsApp y Cuentas Privadas de Instagram."
+          },
+          "roi": {
+            "title": "ROI Garantizado:",
+            "text": "El sistema de fondos en custodia (Escrow) retiene tu pago. Solo se libera si nuestra plataforma verifica que la publicación se hizo correctamente y duró el tiempo acordado."
+          }
+        }
+      },
+      "creators": {
+        "title": "📱 PARA CREADORES Y USUARIOS REALES",
+        "subtitle": "Monetiza tus redes sociales sin fricción y sin ser un influencer masivo.",
+        "description": "No necesitas un millón de seguidores para generar ingresos. Tu círculo de confianza tiene valor.",
+        "features": {
+          "easyMoney": {
+            "title": "Gana Dinero Fácil:",
+            "text": "Aplica a campañas de marcas que te gustan con un solo clic."
+          },
+          "noEffort": {
+            "title": "Cero Esfuerzo Creativo:",
+            "text": "No tienes que grabar videos ni pensar qué escribir. La marca te da la foto exacta. Solo descargas, publicas y cobras."
+          },
+          "securePayments": {
+            "title": "Pagos Seguros:",
+            "text": "El dinero de la marca está congelado desde el momento en que te aprueban. Al cumplir las 24 horas y verificar tu post, el dinero pasa a tu billetera."
+          },
+          "freedom": {
+            "title": "Libertad Total:",
+            "text": "Elige en qué redes publicar (Instagram, X, WhatsApp) según las oportunidades del tablero."
+          }
+        }
+      }
+    },
+    "flow": {
+      "title": "¿Cómo Funciona? El Flujo en 4 Pasos",
+      "step1": {
+        "title": "1. Crea y Fija el Precio (La Marca)",
+        "description": "Diseña tu campaña en segundos. Sube la foto o video oficial, elige el tipo de público que buscas y define cuánto pagarás por cada publicación (ej. $5 USD)."
+      },
+      "step2": {
+        "title": "2. Match Inmediato (El Sistema)",
+        "description": "Nuestra red de usuarios verificados ve tu oferta en su 'Tablero de Oportunidades'. Se postulan con un clic. Tú revisas sus perfiles y apruebas solo a los que encajan con tu marca."
+      },
+      "step3": {
+        "title": "3. Publicación 'Cero Fricción' (El Embajador)",
+        "description": "Al ser aprobado, el usuario recibe automáticamente el material oficial. Lo copia y publica en sus redes (Instagram, X, WhatsApp) sin alterar el mensaje."
+      },
+      "step4": {
+        "title": "4. Verificación y Pago Seguro (Tecnología AddReach)",
+        "description": "Pasadas las 24 horas, el usuario proporciona el enlace o captura de pantalla. Nuestro sistema lo audita (OCR/IA) y libera el pago automáticamente. Sin fraudes, sin estrés."
+      }
+    },
+    "ai": {
+      "title": "Impulsado por Inteligencia Artificial",
+      "subtitle": "IA Simple, Eficaz y Funcional que hace posible el boca a boca escalonado.",
+      "segmentation": {
+        "title": "1. IA en la Segmentación (Smart Matching)",
+        "description": "En lugar de dejar que el dueño de la marca pierda horas buscando quién encaja, la IA hace el trabajo sucio.",
+        "features": {
+          "matching": {
+            "title": "Match de Perfil:",
+            "text": "Al postularse, la IA compara automáticamente las categorías de interés del usuario con los requisitos definidos por la marca. Si el perfil del creador coincide con el nicho solicitado, se marca como 'Candidato Recomendado'."
+          }
+        }
+      },
+      "brandShield": {
+        "title": "2. IA en el 'Blindaje de Marca' (Auditoría Básica)",
+        "description": "¿Cómo aseguramos que el creador publique exactamente lo que queremos?",
+        "features": {
+          "vision": {
+            "title": "Validación de Publicación:",
+            "text": "Cuando el usuario pega el link, la IA verifica que la URL sea válida y que el contenido publicado coincida con la imagen oficial entregada por la marca."
+          },
+          "ocr": {
+            "title": "WhatsApp (Dark Social):",
+            "text": "El sistema utiliza OCR simple para confirmar que la captura de pantalla subida contenga la imagen o el mensaje correcto, asegurando que se cumplió con la tarea."
+          }
+        }
+      },
+      "creatorAssistant": {
+        "title": "3. IA para el Creador (Asistente de Formato)",
+        "description": "Hacemos que el creador sea más eficiente para que acepte más campañas.",
+        "features": {
+          "multiformat": {
+            "title": "Adaptador Multiformato:",
+            "text": "Si la marca sube una foto en formato estándar, la IA la ajusta automáticamente a formato historia (9:16) con un fondo limpio. Esto evita que el creador tenga que editar nada, garantizando que la imagen siempre se vea profesional y lista para publicar."
+          }
+        }
+      },
+      "fraudPrevention": {
+        "title": "4. IA de Prevención de Fraude (Protección de Marca)",
+        "description": "Esto es lo que hará que las marcas confíen ciegamente en AddReach.",
+        "features": {
+          "anomalies": {
+            "title": "Detección de Anomalías:",
+            "text": "El sistema detecta si un creador intenta subir capturas de pantalla recicladas de otros usuarios o imágenes alteradas digitalmente, marcando la tarea para revisión inmediata y evitando pagos indebidos."
+          }
+        }
+      },
+      "whyItWins": {
+        "title": "¿Por qué esta IA es la ganadora?",
+        "features": {
+          "reliability": {
+            "title": "Fiabilidad:",
+            "text": "No intentamos adivinar si un usuario es 'humano' o 'bot' mediante análisis complejos; simplemente verificamos que el trabajo pedido fue realizado (la captura coincide)."
+          },
+          "speed": {
+            "title": "Velocidad:",
+            "text": "El redimensionamiento automático de imágenes hace que los creadores prefieran AddReach sobre otras porque les ahorramos tiempo de edición."
+          },
+          "transparency": {
+            "title": "Transparencia:",
+            "text": "Para la marca, el proceso es: Subo el contenido -> Apruebo el creador -> Veo el post terminado. Punto. Sin reportes subjetivos."
+          }
+        }
+      }
+    },
+    "trust": {
+      "title": "Trust & Safety",
+      "subtitle": "Seguridad y Verificación Anti-Fraude",
+      "description": "Sabemos que la calidad lo es todo. Por eso, el ecosistema de AddReach está blindado:",
+      "features": {
+        "auth": {
+          "title": "Autenticación Estricta:",
+          "text": "Cero granjas de bots. Todos los usuarios deben vincular sus redes reales para poder postularse."
+        },
+        "review": {
+          "title": "Revisión Manual y Automatizada:",
+          "text": "Validación de URLs mediante IA para redes públicas, y escaneo de captura de pantalla (OCR) para redes privadas como WhatsApp."
+        },
+        "reputation": {
+          "title": "Sistema de Reputación:",
+          "text": "Las marcas pueden ver el 'Score de Confianza' de cada postulante basado en el éxito de sus campañas anteriores."
+        }
+      }
+    },
+    "video": {
+      "title": "Mira cómo funciona en acción",
+      "subtitle": "Conoce el poder de AddReach en menos de 2 minutos."
+    },
+    "cta": {
+      "title": "¿Listo para transformar tu estrategia de contenido en una máquina de adquisición de clientes?",
+      "subtitle": "Únete a la evolución de la publicidad digital.",
+      "brandBtn": "Comenzar como Marca (Crear Campaña)",
+      "creatorBtn": "Comenzar como Embajador (Ganar Dinero)"
+    },
+    "brandsPage": {
+      "hero": {
+        "title": "Crea campañas de boca a boca que",
+        "titleAccent": "sí convierten.",
+        "description": "Accede a cientos de embajadores locales dispuestos a publicar tu promoción en sus historias de Instagram y WhatsApp. Paga solo por publicaciones verificadas por IA.",
+        "cta": "Empezar como Marca"
+      },
+      "howItWorks": {
+        "title": "El Flujo Perfecto para Anunciantes",
+        "steps": {
+          "step1": {
+            "title": "1. Sube tu Promoción",
+            "text": "Diseña tu campaña en 2 minutos. Sube la foto o video, establece el pago por publicación y define el nicho."
+          },
+          "step2": {
+            "title": "2. Smart Match",
+            "text": "Nuestra IA encuentra automáticamente a los usuarios ideales que encajan con tu marca."
+          },
+          "step3": {
+            "title": "3. Distribución Inmediata",
+            "text": "Los usuarios seleccionados reciben tu contenido y lo publican en sus redes sociales. Sin alteraciones, tu mensaje es perfecto."
+          },
+          "step4": {
+            "title": "4. Pago por Resultados",
+            "text": "Pasadas las 24 horas, la IA verifica que el contenido se publicó correctamente mediante OCR y visión computacional. Solo entonces se libera el pago."
+          }
+        }
+      },
+      "advantages": {
+        "title": "La Ventaja AddReach",
+        "features": {
+          "shield": {
+            "title": "Blindaje de Marca",
+            "text": "Cero riesgo reputacional. Los usuarios publican exactamente lo que tú les das."
+          },
+          "roi": {
+            "title": "Mayor Conversión",
+            "text": "Las recomendaciones de amigos generan hasta 4 veces más ventas que los anuncios fríos."
+          },
+          "escrow": {
+            "title": "Pagos Seguros",
+            "text": "Tu dinero está protegido en custodia (Escrow) hasta que se verifica el trabajo."
+          }
+        }
+      },
+      "cta": {
+        "title": "¿Listo para lanzar tu campaña?",
+        "btn": "Crear mi primera campaña"
+      }
+    },
+    "creatorsPage": {
+      "hero": {
+        "title": "Monetiza tus redes sociales.",
+        "titleAccent": "Sin esfuerzo.",
+        "description": "Gana dinero publicando el contenido de tus marcas favoritas en tus historias de Instagram o estados de WhatsApp. No necesitas ser un gran influencer, tu círculo de confianza tiene valor.",
+        "cta": "Empezar a ganar dinero"
+      },
+      "howItWorks": {
+        "title": "El Flujo Perfecto para Embajadores",
+        "steps": {
+          "step1": {
+            "title": "1. Postúlate a Campañas",
+            "text": "Revisa el tablero de oportunidades y aplica a las campañas de las marcas que más te gusten con un solo clic."
+          },
+          "step2": {
+            "title": "2. Copia y Pega",
+            "text": "Sin necesidad de grabar ni editar. Descarga el material oficial de la marca y publícalo en tus redes."
+          },
+          "step3": {
+            "title": "3. Espera 24 Horas",
+            "text": "Deja que la publicación corra en tus historias de Instagram, X o WhatsApp durante el tiempo establecido."
+          },
+          "step4": {
+            "title": "4. Sube Captura y Cobra",
+            "text": "Sube el enlace o una captura de pantalla. Nuestra IA audita la publicación y tu dinero se libera automáticamente a tu billetera."
+          }
+        }
+      },
+      "advantages": {
+        "title": "La Ventaja AddReach",
+        "features": {
+          "frictionless": {
+            "title": "Cero Fricción",
+            "text": "No tienes que pensar qué decir ni cómo editar el contenido. Solo publica y cobra."
+          },
+          "instant": {
+            "title": "Pagos Seguros",
+            "text": "El dinero está garantizado. Una vez verificada tu publicación, cobras sin demoras."
+          },
+          "freedom": {
+            "title": "Libertad Total",
+            "text": "Tú decides cuándo y en qué plataforma publicar las campañas que aceptas."
+          }
+        }
+      },
+      "cta": {
+        "title": "¿Listo para empezar a ganar?",
+        "btn": "Unirme como Embajador"
+      }
+    }
   }
 }
